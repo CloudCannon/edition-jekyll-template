@@ -22,6 +22,8 @@ $space: 20px;
 $mobile-break: 700px;
 $full-width-break: $nav-width + ($space * 4) + $content-max-width;
 
+$baseurl:"{{ site.baseurl }}";
+
 @import "mixins";
 @import "normalize";
 @import "pygments";
