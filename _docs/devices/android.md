@@ -12,4 +12,11 @@ To install ChatApp on your device:
 2. Search for ChatApp
 3. Select **Install**
 
+```java
+if (javaCode == true) {
+  handleJavaCode();
+  showCodeBlock();
+}
+```
+
 ![](//placehold.it/800x600)
