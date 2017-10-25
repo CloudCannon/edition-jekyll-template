@@ -3,14 +3,16 @@
 Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
 Start documenting your product, application, service or website with this configurable theme.
 
-![Edition template screenshot](images/_screenshot.png)
+![Docs Site template screenshot](images/_screenshot.png)
 
-Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+Docs Site was forked from Edition by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
 
 Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
 
 ## Features
+
+### From Edition
 
 * Two column layout
 * Full text search
@@ -22,10 +24,13 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 * SEO tags
 * Google Analytics
 
+### Added Features
+
+
+
 ## Setup
 
-1. Add your site and author details in `_config.yml`.
-2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+Add your site and author details in `_config.yml`.
 
 ## Develop
 
@@ -45,7 +50,7 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
+You should only have to edit pages of markdown, and the site should be able to handle the rest.
 
 ### Documentation pages
 
