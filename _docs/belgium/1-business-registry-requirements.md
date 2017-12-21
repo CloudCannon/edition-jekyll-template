@@ -1,6 +1,6 @@
 ---
-title: Facebook
-category: Contact Syncing
+title: Non-profit/For-profit Company Registry Requirements
+category: Belgium
 order: 1
 ---
 
