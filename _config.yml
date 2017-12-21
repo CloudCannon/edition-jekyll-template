@@ -1,23 +1,23 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
+title: Global Blockchain Compliance Hub
+url: "https://mimush.github.io/GBCH2.github.io/"
 baseurl:
 google_analytics_key:
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Product documentation template for Jekyll.
-author:
+logo: /NEO-smart-economy-logo.png.png
+description: Global Blockchain Compliance Hub by NEO.
+author:NEO.org
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: neo_blockchain
 social:
-  name: Edition Template
+  name: Global Blockchain Compliance Hub
   links:
-    - https://github.com/CloudCannon/edition-jekyll-template
+    - https://mimush.github.io/GBCH2.github.io/
 
 # -----
 # Build
