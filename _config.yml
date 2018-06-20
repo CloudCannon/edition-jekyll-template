@@ -3,7 +3,7 @@
 
 title: Edition Template
 url: "https://long-pig.cloudvent.net"
-baseurl:
+baseurl: /edition-jekyll-template
 google_analytics_key:
 show_full_navigation: true
 
