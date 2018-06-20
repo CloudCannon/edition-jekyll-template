@@ -6,7 +6,7 @@ order: 4
 
 Les principaux éléments de configuration de la page d'accueil de la plateforme se trouvent dans l'onglet "Apparence".
 
-**IMAGE DU BACK OFFICE** (si besoin en réduction)
+![1-3-config-apparence]({{ site.baseurl }}/uploads/1-3-config-apparence.png)
 
 1. **Montrer les statistiques** : Affiche en bas de la page d'accueil des statistiques globales de participation sur la plateforme (nombre d'inscrits, de concertations, de propositions, de réponses aux enquêtes, etc.). Il est nécessaire d'activer un système externe comme Matomo pour obtenir des statistiques que fréquentation (nombre de visiteurs et de pages vues, etc.). 
 2. **Description** : C'est le texte d'introduction qui s'affiche en dessous de la bannière principale. Ces quelques lignes permettent d'expliquer les objectifs de la plateforme. Il est possible d'inclure un lien vers une autre page de la plateforme. Un bouton "s'inscrire" est positionné sous ce texte pour les visiteurs qui ne sont pas connectés. 
