@@ -14,7 +14,7 @@ Nous pouvons modifier la couleur de certains composants pour adapter Decidim à 
 
 Exemple avec des barres de navigation de couleurs différentes : 
 
-![modifier-css-plateforme]({{ site.baseurl }}/uploads/modifier-css-plateforme.png)
+![modifier-css-plateforme]({{ site.baseurl }}/uploads/1-4-modifier-css-plateforme.png)
 
 Pour ses composants, Decidim utilise principalement deux couleurs, définies par les variables $primary et $secondary. En changeant les valeurs de ces deux variables, il est possible de modifier rapidement l’apparence d’une instance Decidim en gardant un design cohérent. Pour une meilleure lisibilité, ces couleurs ne doivent pas être trop claires. 
 * $primary : #ef604d
