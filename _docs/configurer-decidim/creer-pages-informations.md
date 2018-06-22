@@ -1,6 +1,6 @@
 ---
 title: Créer vos pages d'information 
-category: configurer-decidim
+category: Configurer Decidim
 order: 7
 ---
 ### 1.6 - Créer vos pages d'information
