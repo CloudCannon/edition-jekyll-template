@@ -8,24 +8,40 @@ Les fonctionnalités sont les modules de participation que vous pous pouvez acti
 
 Les fonctionnalités disponibles sont :
 
-Rencontres :Agenda de rencontres publiques, seul les administrateurs du processus participatif peuvent créer des rencontres. Les rencontres peuvent être associées à des catégories.
+[Rencontres](#rencontres) : Agenda de rencontres publiques, seul les administrateurs du processus participatif peuvent créer des rencontres. Les rencontres peuvent être associées à des catégories.
 
-Propositions : Selon la configuration, espace ouvert aux propositions des citoyens ou espace de consultation pour l’institution.
+[Propositions](#propositions) : Selon la configuration, espace ouvert aux propositions des citoyens ou espace de consultation pour l’institution.
 
-Budgets : Pour paramétrer la mise en place d’un budget participatif avec un vote de propositions dans le périmètres d’enveloppes budgétaires.
+[Budget](#budget) : Pour paramétrer la mise en place d’un budget participatif avec un vote de propositions dans le périmètres d’enveloppes budgétaires.
 
-Enquête : Pour réaliser des enquêtes à l’aide de formulaires web complètement personnalisables. 4 options de champs : réponse courte, réponse longue, choix unique et choix multiples.
+[Enquête](#enquete) : Pour réaliser des enquêtes à l’aide de formulaires web complètement personnalisables. 4 options de champs : réponse courte, réponse longue, choix unique et choix multiples.
 
-Page : Pratique pour mettre à disposition des informations complémentaires sur le processus. On peut activer un espace de commentaire
+[Page](#page) : Pratique pour mettre à disposition des informations complémentaires sur le processus. On peut activer un espace de commentaire
 
-Suivi : Pour communiquer des résultats concernant le processus. Seuls les administrateurs peuvent en publier. Ils peuvent les associer à des catégories et lier des propositions qui ont émergé pendant le processus.
+[Suivi](#suivi) : Pour communiquer des résultats concernant le processus. Seuls les administrateurs peuvent en publier. Ils peuvent les associer à des catégories et lier des propositions qui ont émergé pendant le processus.
 
-Débats :
+[Débats](#debats) :
 
-Tirages au sort :
+[Tirage au sort](#tirage-au-sort) :
 
-Actualités :
+[Actualités](#actualites) :
 
 Pour ajouter une fonctionnalité, cliquez sur “Ajouter une fonctionnalité”.
 
-## Fonctionnalité "Propositions"
+#### Rencontres
+
+#### Propositions
+
+#### Budget
+
+#### Enquête
+
+#### Page
+
+#### Suivi
+
+#### Débats
+
+#### Tirage au sort
+
+#### Actualités
