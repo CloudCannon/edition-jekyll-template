@@ -8,40 +8,46 @@ Les fonctionnalités sont les modules de participation que vous pous pouvez acti
 
 Les fonctionnalités disponibles sont :
 
-[Rencontres](#rencontres) : Agenda de rencontres publiques, seul les administrateurs du processus participatif peuvent créer des rencontres. Les rencontres peuvent être associées à des catégories.
+**[Rencontres](#rencontres)** : Agenda de rencontres publiques, seul les administrateurs du processus participatif peuvent créer des rencontres. Les rencontres peuvent être associées à des catégories.
 
-[Propositions](#propositions) : Selon la configuration, espace ouvert aux propositions des citoyens ou espace de consultation pour l’institution.
+**[Propositions](#propositions)** : Selon la configuration, espace ouvert aux propositions des citoyens ou espace de consultation pour l’institution.
 
-[Budget](#budget) : Pour paramétrer la mise en place d’un budget participatif avec un vote de propositions dans le périmètres d’enveloppes budgétaires.
+**[Budget](#budget)** : Pour paramétrer la mise en place d’un budget participatif avec un vote de propositions dans le périmètres d’enveloppes budgétaires.
 
-[Enquête](#enquete) : Pour réaliser des enquêtes à l’aide de formulaires web complètement personnalisables. 4 options de champs : réponse courte, réponse longue, choix unique et choix multiples.
+**[Enquête](#enquete)** : Pour réaliser des enquêtes à l’aide de formulaires web complètement personnalisables. 4 options de champs : réponse courte, réponse longue, choix unique et choix multiples.
 
-[Page](#page) : Pratique pour mettre à disposition des informations complémentaires sur le processus. On peut activer un espace de commentaire
+**[Page](#page)** : Pratique pour mettre à disposition des informations complémentaires sur le processus. On peut activer un espace de commentaire
 
-[Suivi](#suivi) : Pour communiquer des résultats concernant le processus. Seuls les administrateurs peuvent en publier. Ils peuvent les associer à des catégories et lier des propositions qui ont émergé pendant le processus.
+**[Suivi](#suivi)** : Pour communiquer des résultats concernant le processus. Seuls les administrateurs peuvent en publier. Ils peuvent les associer à des catégories et lier des propositions qui ont émergé pendant le processus.
 
-[Débats](#debats) :
+**[Débats](#debats)** :
 
-[Tirage au sort](#tirage-au-sort) :
+**[Tirage au sort](#tirage-au-sort)** :
 
-[Actualités](#actualites) :
+**[Actualités](#actualites)** :
 
 Pour ajouter une fonctionnalité, cliquez sur “Ajouter une fonctionnalité”.
 
-#### Rencontres
+### Rencontres
 
-#### Propositions
+### Propositions
 
-#### Budget
+![information-concertation]({{site.baseurl}}/uploads/3-5-1-back-config-prop.png)
 
-#### Enquête
+![information-concertation]({{site.baseurl}}/uploads/3-5-2-front-config-prop.png)
 
-#### Page
+![information-concertation]({{site.baseurl}}/uploads/3-5-3-back-gestion-prop.png)
 
-#### Suivi
+### Budget
 
-#### Débats
+### Enquête
 
-#### Tirage au sort
+### Page
 
-#### Actualités
+### Suivi
+
+### Débats
+
+### Tirage au sort
+
+### Actualités
