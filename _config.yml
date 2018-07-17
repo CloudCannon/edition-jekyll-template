@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
-baseurl: /edition-jekyll-template
+title: Doc Admin Decidim
+url: "https://www.opensourcepolitics.eu/docs-admin-decidim/"
+baseurl: /docs-admin-decidim/
 google_analytics_key:
 show_full_navigation: true
 
