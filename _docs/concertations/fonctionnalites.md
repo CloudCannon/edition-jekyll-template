@@ -4,7 +4,7 @@ category: 3. Concertations
 order: 6
 ---
 
-Les fonctionnalités sont les modules de participation que vous pous pouvez activer sur chacun des processus. Il existe 6 modules participatifs. Vous pouvez en activer autant que vous le souhaitez (et même plusieurs du même type sur un seul processus participatif). Ils sont tous configurables individuellement.
+Les fonctionnalités sont les modules de participation que vous pous pouvez activer sur chacun des processus. Il existe 9 modules participatifs. Vous pouvez en activer autant que vous le souhaitez (et même plusieurs du même type sur un seul processus participatif). Ils sont tous configurables individuellement.
 
 Les fonctionnalités disponibles sont :
 
@@ -28,7 +28,17 @@ Les fonctionnalités disponibles sont :
 
 Pour ajouter une fonctionnalité, cliquez sur “Ajouter une fonctionnalité”.
 
+Pour modifier une fonctionalité, cliquez sur "Fonctionnalités" à gauche, puis cliquer sur l'icône "Pinceau" de la fonctionnalité à modifier.
+
 ### Rencontres
+
+Écran de configuration du module "Rencontres" :
+
+Tableau de bord des rencontres :
+
+Écran de configuration d'une rencontre :
+
+
 
 ### Propositions
 
