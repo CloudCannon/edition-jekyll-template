@@ -64,7 +64,25 @@ ___
 
 ### Enquête
 
+Vous devez d'abord configurer le module "Enquête" en indiquant à quelle(s) étape(s) l'utilisateur peut répondre à l'enquête.
+Pour configurer l'enquête en elle-même, cliquez sur "Enquête" dans la barre des fonctionnalités sur la gauche ou sur l'icône "Crayon" dans le tableau de bord du module "Enquête".
+Il n'est possible de configurer qu'une enquête par module "Enquête".
+Plusieurs type de questions sont possibles. Chaque question peut être obligatoire ou non.
+- Option unique : il faut indiquer plusieurs options de réponse ; l'utilisateur ne peut choisir qu'une seule réponse.
+- Option multiple : il faut indiquer plusieurs options de réponse ; l'utilisateur peut choisir plusieurs réponses ; vous pouvez configurer le nombre de réponse maximum ; vous pouvez configurer des champs qui resteront libres, à l'utilisateur de les remplir.
+- Réponse courte : champ de texte court
+- Réponse longue : champ de texte long
+- Tri : il faut indiquer plusieurs choix ; l'utilisateur devra les classer dans l'ordre souhaité.
+
+Il est impossible de modifier une enquête qui a reçu au moins une réponse.
+
+![config-enquete]({{site.baseurl}}/uploads/3-5-7-back-config-enquete.png)
+
+
 ### Page
+
+Édition d'une page simple :
+![config-enquete]({{site.baseurl}}/uploads/3-5-8-back-config-page.png)
 
 ### Suivi
 
