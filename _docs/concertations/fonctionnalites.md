@@ -6,7 +6,19 @@ order: 6
 
 Les fonctionnalités sont les modules de participation que vous pous pouvez activer sur chacun des processus. Il existe 9 modules participatifs. Vous pouvez en activer autant que vous le souhaitez (et même plusieurs du même type sur un seul processus participatif). Ils sont tous configurables individuellement.
 
-Les fonctionnalités disponibles sont :
+
+> Pour ajouter une fonctionnalité, cliquez sur “Ajouter une fonctionnalité”.
+
+> Pour modifier une fonctionalité, cliquez sur "Fonctionnalités" à gauche, puis cliquer sur l'icône "Pinceau" de la fonctionnalité à modifier.
+
+> La plupart des fonctionnalités se configurent à deux niveaux :
+- Au niveau général : cette configuration s'appliquera à n'importe quelle étape de la concertation.
+- Par étape : cette configuration ne s'appliquera que lorsque cette étape est activée. C'est le cas des **messages d'annonces. Les annonces par étapes viendront se substituer à l’annonce générale quand l’étape est active.**
+
+
+___
+
+#### Cliquez sur le titre de la fonctionnalité pour accéder à son mode d'emploi) :
 
 **[Rencontres](#rencontres)** : Agenda de rencontres publiques, seul les administrateurs du processus participatif peuvent créer des rencontres. Les rencontres peuvent être associées à des catégories.
 
@@ -26,27 +38,27 @@ Les fonctionnalités disponibles sont :
 
 **[Actualités](#actualites)** :
 
-Pour ajouter une fonctionnalité, cliquez sur “Ajouter une fonctionnalité”.
 
-Pour modifier une fonctionalité, cliquez sur "Fonctionnalités" à gauche, puis cliquer sur l'icône "Pinceau" de la fonctionnalité à modifier.
 
 ### Rencontres
 
-Écran de configuration du module "Rencontres" :
+#### Écran de configuration du module "Rencontres" :
+![config-rencontres]({{site.baseurl}}/uploads/3-5-4-back-config-rencontres.png)
 
-Tableau de bord des rencontres :
+#### Tableau de bord des rencontres :
+![config-rencontres]({{site.baseurl}}/uploads/3-5-5-dashboard-rencontre.png)
 
-Écran de configuration d'une rencontre :
-
+#### Écran de configuration d'une rencontre :
+![config-rencontres]({{site.baseurl}}/uploads/3-5-6-back-creation-rencontre.png)
 
 
 ### Propositions
 
-![information-concertation]({{site.baseurl}}/uploads/3-5-1-back-config-prop.png)
+![config-propositions]({{site.baseurl}}/uploads/3-5-1-back-config-prop.png)
 
-![information-concertation]({{site.baseurl}}/uploads/3-5-2-front-config-prop.png)
+![config-propositions]({{site.baseurl}}/uploads/3-5-2-front-config-prop.png)
 
-![information-concertation]({{site.baseurl}}/uploads/3-5-3-back-gestion-prop.png)
+![config-propositions]({{site.baseurl}}/uploads/3-5-3-back-gestion-prop.png)
 
 ### Budget
 
