@@ -1,7 +1,7 @@
 ---
-title: 3.5 Configurer les fonctionnalités d'une concertation
+title: 3.6 Configurer les fonctionnalités d'une concertation
 category: 3. Concertations
-order: 6
+order: 7
 ---
 
 Les fonctionnalités sont les modules de participation que vous pous pouvez activer sur chacun des processus. Il existe 9 modules participatifs. Vous pouvez en activer autant que vous le souhaitez (et même plusieurs du même type sur un seul processus participatif). Ils sont tous configurables individuellement.
@@ -87,6 +87,12 @@ Il est impossible de modifier une enquête qui a reçu au moins une réponse.
 ### Suivi
 
 ### Débats
+
+Vous devez d'abord configurer le module "Débats" en indiquant à quelle(s) étape(s) l'utilisateur peut créer un débat et/ou commenter (= participer) les débats.
+
+Pour créer un débat d'origine officielle, cliquer sur "Débats" dans la barre des fonctionnalités sur la gauche ou sur l'icône "Crayon" dans le tableau de bord du module "Débats", puis cliquez sur "Nouveau débat"
+
+
 
 ### Tirage au sort
 
