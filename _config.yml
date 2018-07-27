@@ -42,6 +42,7 @@ collections:
     title: Documentation
     permalink: /:path/
     output: true
+    _icon: insert_drive_file
 
 defaults:
   -
@@ -63,11 +64,17 @@ defaults:
         content:
           width: 800
           height: 2000
+          uploads_dir: "/images/article-uploads/"
   -
     scope:
       path: ""
       type: "posts"
     values:
+      _options:
+        content:
+          width: 800
+          height: 2000
+          uploads_dir: "/images/post-uploads"
       _comments:
         type: Marks the impact of this release
 
