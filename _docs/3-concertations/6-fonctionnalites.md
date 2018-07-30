@@ -111,7 +111,15 @@ Pour ajouter une page, cliquer sur "Ajouter une fonctionnalité" dans le menu de
 
 Le module "Suivi" permet aux utilisateurs de l'avancement des réalisations (à l'échelle globale, par catégorie et / ou par sous-catégorie) de l'action liée à une concertation. Cette action correspond aux propositions dont la réalisation a été décidée suite à la médiation opérée à travers Decidim, soit directement (via un vote), soit indirectement (via des rencontres, des assemblées ou l'intervention des équipes politiques et techniques).
 
-Les réalisations peuvent être transformées en projets ou décomposées en sous-projets, qui décrivent avec plus de détail les réalisation, et pour lesquels un statut d'exécution peut être défini, allant de 0% à 100% d'exécution. Les réalisations, projets et états peuvent être mis à jour manuellement par un fichier CSV via l'interface d'administration.
+Les réalisations peuvent être transformées en projets ou décomposées en sous-projets, qui décrivent avec plus de détail les réalisation, et pour lesquels un statut d'exécution peut être défini.
+Vous pouvez définir plusieurs statuts pour vos résultats qui permettront de rendre compte de l’état d’avancement. Le  nom ne sera visible que dans la partie administrateur, il vous permet de l’intégrer dans certaines étapes. À l’inverse la  description est le texte qui sera visible par les utilisateurs. Vous avez la possibilité de réaliser deux sortes d’actions : modifier ou supprimer.
+Vous pouvez associer vos résultats à des catégories et des propositions qui les ont inspirés. Pour sélectionner plusieurs propositions :
+- sous Windows ou Linux : Ctrl + clic gauche
+- sous Mac : Cmd + clic
+
+Pour réaliser une frise chronologique vous devez cliquer sur l'icône 'horloge'. Ainsi vous voyez apparaître une fenêtre qui affiche les étapes déjà en cours si elles ont été créées. Pour ajouter une nouvelle étape dans la chronologie cliquez sur [Nouveau élément de chronologie]
+
+Les réalisations, projets et états peuvent être mis à jour manuellement par un fichier CSV via l'interface d'administration.
 
 Pour configurer le module "Suivi", cliquer sur "Ajouter une fonctionnalité", sélectionner "Suivi" et s'ouvre le mune de configuration du module :
 

@@ -4,12 +4,11 @@ category: 5. Initiatives
 order: 3
 ---
 
-Les initiatives se distinguent des autres espaces de participation en étant des outils ou mécanismes participatifs directement initiés par les citoyens. En d'autres termes, les initiatives sont des mécanismes pour promouvoir la démocratie semi-directe à travers lesquels les citoyens peuvent soutenir certaines actions d'intérêt commun auprès des autorités, en collectant un nombre défini de signatures.
+L'administrateur doit suivre les initiatives créées par les utilisateurs et vérifier que les informations renseignées pour chaque initiative sont correctes.
+Pour cela, se rednre dans le sous-menu des initiatives sur la gauche et cliquer sur "Initiatives" puis sur l'initiative visée.
+Sur la gauche, dans le menu d'une initiative, vous pouvez : configurer les membres du comité, les rencontres, créer une page et attacher des documents liés.
+La marche à suivre pour configurer ces fonctionnalités correspond à celle décrite précédemment dans [3.6 Fonctionnalités]({{site.baseurl}}/3-concertations/6-fonctionnalites/))
 
-L'autorité pour ce faire doit activer la saisie d'initiatives et offrir le soutien technique et pratique nécessaire aux citoyens concernés. Le rôle de l'administrateur de la plateforme est alors sensiblement différent que dans les autres espaces participatifs. Pour commencer, vous devez configurer le type d'initiative que le citoyen peut déposer selon les règles en vigueur dans votre collectivité, en spécifiant le nombre de signatures requises.
+Pour effectuer ces actions de suivi, cliquez sur "Information" dans le sous-menu de l'initiative. Les boutons suivants apparaissent : "Mettre à jour", "Envoyer pour valisation technique", "Publier" (ou "Dépublier"), "Rejeter l'initiative", "Exporter la liste des votes".
 
-Pour configurer un type d'initiative, cliquer sur "Initiatives" dans le menu de gauche, puis sur "Type d'initiative", puis "Nouveau". L'écran de configuration d'un type d'initiative s'ouvre.
-
-![config-rencontres]({{site.baseurl}}/uploads/5-1-1-config-types-initiative.png)
-
-Une fois les informations validée, un champ "Secteur pour ce type d'initiative" apparait où vous devez configurer le secteur ainsi que le nombre de signatures requises.
+Par exemple, une initiative peut être rejetée parce qu'elle a pour objectif de restreindre des droits fondamentaux ou encore parce qu'elle s'adresse à une mairie mais que son sujet ne dépend pas du champ de compétence d'une municipalité.
