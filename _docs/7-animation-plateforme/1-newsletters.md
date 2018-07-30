@@ -1,6 +1,6 @@
 ---
-title: Index
-category: 1. Newsletters
+title: 1. Newsletters
+category: 7. Animation  de la plateforme
 order: 2
 ---
 
