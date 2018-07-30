@@ -7,9 +7,9 @@ order: 7
 Les fonctionnalités sont les modules de participation que vous pous pouvez activer sur chacun des processus. Il existe 9 modules participatifs. Vous pouvez en activer autant que vous le souhaitez (et même plusieurs du même type sur un seul processus participatif). Ils sont tous configurables individuellement.
 
 
-> Pour ajouter une fonctionnalité, cliquez sur “Ajouter une fonctionnalité”.
+> Pour configurer les fonctionnalités, cliquez sur "Fonctionnalités" dans le sous-menu de la concertation. Une liste apparait montrant les fonctionnalités déjà activées. Les icônes de chaque fonctionnalité permettent de suivre les actions suivantes : Gérer, publier/dépublier, configurer, gérer les permissions, détruire.
 
-> Pour modifier une fonctionalité, cliquez sur "Fonctionnalités" à gauche, puis cliquer sur l'icône "Pinceau" de la fonctionnalité à modifier.
+> Pour ajouter une fonctionnalité, cliquez sur “Ajouter une fonctionnalité”.
 
 > La plupart des fonctionnalités se configurent à deux niveaux :
 - Au niveau général : cette configuration s'appliquera à n'importe quelle étape de la concertation.
@@ -18,7 +18,7 @@ Les fonctionnalités sont les modules de participation que vous pous pouvez acti
 
 ___
 
-#### Cliquez sur le titre de la fonctionnalité pour accéder à son mode d'emploi) :
+#### Cliquez sur le titre de la fonctionnalité pour accéder à son mode d'emploi :
 
 **[Rencontres](#rencontres)** : Agenda de rencontres publiques, seul les administrateurs du processus participatif peuvent créer des rencontres. Les rencontres peuvent être associées à des catégories.
 
@@ -42,23 +42,45 @@ ___
 
 ### Rencontres
 
-#### Écran de configuration du module "Rencontres" :
-![config-rencontres]({{site.baseurl}}/uploads/3-5-4-back-config-rencontres.png)
+Pour ajouter des rencontres, vous devez d'abord configurer le module "Rencontres". Pour cela, vous devez l'ajouter depuis le sous-menu "Fonctionnalité". L'écran de configuration du module "Rencontres" s'ouvre :
+![config-rencontres]({{site.baseurl}}/uploads/3-6-4-back-config-rencontres.png)
 
-#### Tableau de bord des rencontres :
-![config-rencontres]({{site.baseurl}}/uploads/3-5-5-dashboard-rencontre.png)
+Vous devez renseigner un titre, un rang d'affichage dans la barre de navigation, une annonce globale et par étape, cocher "Activer le module commentaire" si vous souhaitez laisser les utilisateurs commenter les rencontres , et également cocher "Bloquer les commentaires" si vous souhaitez empêcher les utilisateurs de commenter les rencontres (les commentaires laissés précédemment restent visibles).
 
-#### Écran de configuration d'une rencontre :
-![config-rencontres]({{site.baseurl}}/uploads/3-5-6-back-creation-rencontre.png)
+Une fois que le module "Rencontres" a été configuré, vous pouvez créer des rencontres.
+Pour cela, cliquez sur le module "Rencontres" dans le sous-menu à gauche.
+Les icônes du tableau de bord des rencontres permettent d'effectuer les actions suivantes :
+![config-rencontres]({{site.baseurl}}/uploads/3-6-5-dashboard-rencontre.png)
+
+Pour créer une rencontre, cliquez sur "Nouvelle" puis l'écran de configuration d'une rencontre s'ouvre :
+![config-rencontres]({{site.baseurl}}/uploads/3-6-6-back-creation-rencontre.png)
+Les champs à renseigner sont :
+- Titre
+- Description
+- Adresse : Numéro, nom de rue, code postal et ville. Les adresses sont ensuite géocodées via here.com qui utilise les services founis par Open Street Map.
+- Lieu : nom du bâtiment, de la salle de réunion, etc.
+- Données de localisation : Si besoin, des informations sur comment accéder à la salle (par exemple, "Utiliser l'accès sud"), etc.
+- Heure de début et heure de fin
+- Catégorie, si pertinent
+
+Pour activer une rencontre, se rendre sur le tableau de bord des rencontre, cliquer sur l'icône "Inscriptions", cocher "Activer les inscriptions", renseigner le nombre de places disponibles (laisser à 0 pour un nombre illimité de places), le nombre de places réservées (pré-réservation, entrée sur place sans réservation, etc.) et indiquer les "Conditions d'inscription" (par exemple, "Entrée libre").
+Sur cette fenêtre, via le menu "Exporter", il est également possible d'exporter la liste des inscriptions aux formats CSV, JSON ou EXCEL.
+![config-rencontres]({{site.baseurl}}/uploads/3-6-9-back-config-inscription.png)
 
 
 ### Propositions
 
-![config-propositions]({{site.baseurl}}/uploads/3-5-1-back-config-prop.png)
+Pour configurer un module "Proposition", vous devez aller dans le sous-menu des fonctionnalités et cliquer sur "Ajouter une fonctionalité". L'écran de configuration du module "Propositions" s'ouvre (voir coincidance entre les champs en backoffice et l'affichage en front) :
 
-![config-propositions]({{site.baseurl}}/uploads/3-5-2-front-config-prop.png)
+![config-propositions]({{site.baseurl}}/uploads/3-6-1-back-config-prop.png)
 
-![config-propositions]({{site.baseurl}}/uploads/3-5-3-back-gestion-prop.png)
+![config-propositions]({{site.baseurl}}/uploads/3-6-2-front-config-prop.png)
+
+Pour gérer les propositions - c'est-à-dire pour accepter/refuser des propositions, cliquez sur le module "Proposition" dans le sous-menu de gauche. Les trois actions possibles sont "Notes privées" (des notes qui ne sont visibles que par les admins), "Répondre" et "Visualiser".
+Vous pouvez exporter les propositions aux formats CSV, JSON, EXCEL en cliquant sur "Exporter"
+Il est également possible de faire des propositions officielles en cliquant sur "Nouvelle proposition".
+Vous pouvez enfin importer des propositions d'un autre module proposition dans celui-ci en cliquant sur "Importer depuis une autre fonctionnalité". Un double de la proposition importée sera créée, sans les commentaires/votes de la proposition originale, et qui sera liée à la proposition originale.
+![config-propositions]({{site.baseurl}}/uploads/3-6-3-back-gestion-prop.png)
 
 ### Budget
 
@@ -76,15 +98,24 @@ Plusieurs type de questions sont possibles. Chaque question peut être obligatoi
 
 Il est impossible de modifier une enquête qui a reçu au moins une réponse.
 
-![config-enquete]({{site.baseurl}}/uploads/3-5-7-back-config-enquete.png)
+![config-enquete]({{site.baseurl}}/uploads/3-6-7-back-config-enquete.png)
 
 
 ### Page
 
-Édition d'une page simple :
-![config-enquete]({{site.baseurl}}/uploads/3-5-8-back-config-page.png)
+Vous pouvez éditer des pages qui renseignent l'utilisateur sur la concertation en cours, les méthodes de participation, les objectifs, etc.
+Pour ajouter une page, cliquer sur "Ajouter une fonctionnalité" dans le menu des fonctionnalité.
+![config-enquete]({{site.baseurl}}/uploads/3-6-8-back-config-page.png)
 
 ### Suivi
+
+Le module "Suivi" permet aux utilisateurs de l'avancement des réalisations (à l'échelle globale, par catégorie et / ou par sous-catégorie) de l'action liée à une concertation. Cette action correspond aux propositions dont la réalisation a été décidée suite à la médiation opérée à travers Decidim, soit directement (via un vote), soit indirectement (via des rencontres, des assemblées ou l'intervention des équipes politiques et techniques).
+
+Les réalisations peuvent être transformées en projets ou décomposées en sous-projets, qui décrivent avec plus de détail les réalisation, et pour lesquels un statut d'exécution peut être défini, allant de 0% à 100% d'exécution. Les réalisations, projets et états peuvent être mis à jour manuellement par un fichier CSV via l'interface d'administration.
+
+Pour configurer le module "Suivi", cliquer sur "Ajouter une fonctionnalité", sélectionner "Suivi" et s'ouvre le mune de configuration du module :
+
+Pour ajouter un nouveau résultat, cliquez sur "Nouveau résultat" dans le tableau de bord du module "Suivi".
 
 ### Débats
 
@@ -95,5 +126,7 @@ Pour créer un débat d'origine officielle, cliquer sur "Débats" dans la barre 
 
 
 ### Tirage au sort
+
+La fonctionnalité "Tirage au sort" vous permet de sélectionner de manière aléatoire un certain nombre de propositions depuis un groupe de proposition.
 
 ### Actualités
