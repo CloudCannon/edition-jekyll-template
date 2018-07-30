@@ -1,5 +1,5 @@
 ---
-title: 0. Index
+title: Index
 category: 5. Initiatives
 order: 1
 ---
