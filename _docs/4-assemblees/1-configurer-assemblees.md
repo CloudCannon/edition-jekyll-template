@@ -1,5 +1,5 @@
 ---
-title: 1. Configurer une assemblée
+title: 4.1. Configurer une assemblée
 category: 4. Assemblées
 order: 1
 ---

@@ -24,7 +24,7 @@ ___
 
 **[Propositions](#propositions)** : Selon la configuration, espace ouvert aux propositions des citoyens ou espace de consultation pour l’institution.
 
-**[Budget](#budget)** : Pour paramétrer la mise en place d’un budget participatif avec un vote de propositions dans le périmètres d’enveloppes budgétaires.
+**[Budget](#budget)** : Pour paramétrer la mise en place d’un budget participatif avec un vote de propositions dans le secteurs d’enveloppes budgétaires.
 
 **[Enquête](#enquete)** : Pour réaliser des enquêtes à l’aide de formulaires web complètement personnalisables. 4 options de champs : réponse courte, réponse longue, choix unique et choix multiples.
 
