@@ -4,19 +4,10 @@ category: 3. Concertations
 order: 1
 ---
 
-3.1 Créer/modifier/dupliquer une concertation
-3.2 Configurer les informations d'une concertation
-3.3 Étapes de la concertation
-3.4 Catégories
-3.5 Dossiers et documents liés
-3.6 Utilisateurs de la concertation
-3.7 Fonctionnalités
-  Page
-  Rencontres
-  Propositions
-  Budgets
-  Enquêtes
-  Suivi
-  Débats
-  Tirages au sort
-3.8 Groupes de concertations
+1. [Créer une concertation]({{site.baseurl}}/3-concertations/1-creer-concertation/)
+2. [Renseigner les informations d'une concertation]({{site.baseurl}}/3-concertations/2-information-concertation/)
+3. [Comprendre les différents rôles utilisateurs]({{site.baseurl}}/3-concertations/3-etapes-concertation/)
+4. [Inviter des administrateurs]({{site.baseurl}}/3-concertations/4-categories-concertation/)
+5. [Profil public de l'utilisateur]({{site.baseurl}}/3-concertations/5-documents-lies/)
+6. [Conversations privées]({{site.baseurl}}/3-concertations/6-fonctionnalites/)
+7. [Groupes d'utilisateurs]({{site.baseurl}}/3-concertations/7-groupes-concertation/)

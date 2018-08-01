@@ -20,4 +20,5 @@ Pour créer une assemblée, cliquer sur l’onglet Assemblées puis sur “Nouve
 ![config-rencontres]({{site.baseurl}}/uploads/4-1-1-config-assemblees.png)
 
 Les étapes de création et de configuration sont similaires à celles d’une concertation (hormis la création d’étape et le paramétrage des dates de début et de fin). Nous vous invitons à vous référer à [3.1 Créer une concertation]({{site.baseurl}}/3-concertations/2-information-concertation/) pour remplir les informations requises et à [3.6 Fonctionnalités]({{site.baseurl}}/3-concertations/6-fonctionnalites/) pour configurer les fonctionnalités.
+
 À noter que, comme pour les concertations, il est possible de créer des assemblées privées visibles ou non par les non-membres de l'assemblée.

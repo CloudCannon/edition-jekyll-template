@@ -8,7 +8,7 @@ Se configure dans 'Processus > [choix-du-processus] > Documents liés'
 
 #### Dossiers
 
-Il est possible, dans le cas de l'ajout de plusieurs documents liés à la concertation, de créer des dossiers.
+Il est possible, dans le cas de l'ajout de plusieurs documents liés à la concertation, de créer des dossiers.</br>
 Un dossier a un titre, un rang d'affichage et une description.
 
 #### Fichier

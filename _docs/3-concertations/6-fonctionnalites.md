@@ -32,11 +32,11 @@ ___
 
 **[Suivi](#suivi)** : Pour communiquer des résultats concernant le processus. Seuls les administrateurs peuvent en publier. Ils peuvent les associer à des catégories et lier des propositions qui ont émergé pendant le processus.
 
-**[Débats](#debats)** :
+**[Débats](#debats)** : Pour conduire des débats (initiés par l'administrateur et/ou par les citoyens) à travers un fil de commentaire.
 
-**[Tirage au sort](#tirage-au-sort)** :
+**[Tirage au sort](#tirage-au-sort)** : Pour tirer au sort de manière complètement aléatoire une proposition parmi d'autres.
 
-**[Actualités](#actualites)** :
+**[Actualités](#actualites)** : Pour éditer des articles.
 
 
 
@@ -105,7 +105,7 @@ Il est impossible de modifier une enquête qui a reçu au moins une réponse.
 
 Vous pouvez éditer des pages qui renseignent l'utilisateur sur la concertation en cours, les méthodes de participation, les objectifs, etc.
 Pour ajouter une page, cliquer sur "Ajouter une fonctionnalité" dans le menu des fonctionnalité.
-![config-enquete]({{site.baseurl}}/uploads/3-6-8-back-config-page.png)
+![config-page]({{site.baseurl}}/uploads/3-6-8-back-config-page.png)
 
 ### Suivi
 
@@ -127,14 +127,28 @@ Pour ajouter un nouveau résultat, cliquez sur "Nouveau résultat" dans le table
 
 ### Débats
 
-Vous devez d'abord configurer le module "Débats" en indiquant à quelle(s) étape(s) l'utilisateur peut créer un débat et/ou commenter (= participer) les débats.
+Vous devez d'abord créer et configurer un module "Débats" en indiquant à quelle(s) étape(s) l'utilisateur peut créer un débat et/ou commenter (= participer) les débats.
 
-Pour créer un débat d'origine officielle, cliquer sur "Débats" dans la barre des fonctionnalités sur la gauche ou sur l'icône "Crayon" dans le tableau de bord du module "Débats", puis cliquez sur "Nouveau débat"
+Pour créer un débat d'origine officielle, cliquer sur la fonctionnalité "Débats" dans la barre des fonctionnalités sur la gauche ou sur l'icône "Crayon" dans le tableau de bord du module "Débats", puis cliquez sur "Nouveau débat"
 
 
+![creer-debat]({{site.baseurl}}/uploads/3-6-10-creer-debat.png)
 
 ### Tirage au sort
 
 La fonctionnalité "Tirage au sort" vous permet de sélectionner de manière aléatoire un certain nombre de propositions depuis un groupe de proposition.
 
+
 ### Actualités
+
+La fonctionnalité "Actualités" permet de créer des articles mettant en lumière des derniers développements de la plateforme, actualités de la concertation, etc.
+Les articles les plus commentés sont mis en avant sur la plateforme.
+
+Vous devez d'abord créer un module "Actualités" et le configurer en autorisant ou non les commentaires des utilisateurs.
+
+Pour créer un article, cliquez sur le module "Actualités" dans le menu de gauche et renseignez le contenu grâce à l'éditeur de texte.
+
+![creer-debat]({{site.baseurl}}/uploads/3-6-11-creer-debat.png)
+
+
+

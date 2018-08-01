@@ -1,5 +1,5 @@
 ---
-title: 2.8 Utilisateurs représentés
+title: 2.8 Représenter un utilisateur
 category: 2. Utilisateurs
 order: 9
 ---
@@ -33,6 +33,7 @@ Vous pouvez également représenter de nouveau un utilisateur représenté déj�
 
 Il est également possible de promouvoir un utilisateur représenté en utilisateur standard - c'est-à-dire qui a un compte sur la plateforme. Pour ce faire, cliquez sur l'icône "Fanion". Vous devez ensuite renseigner son email.
 ![utilisateurs-representes]({{site.baseurl}}/uploads/2-8-4-utilisateurs-representes.png)
+
 Il recevra un email avec un lien l'invitant à se créer un compte. Une fois son compte créé, le statut de l'utilisateur changera en "Non représenté".
 
 Enfin, vous pouvez accéder à l'historique de l'ouverture de session par utilisateur en cliquant sur l'icône "Horloge" à droite.
