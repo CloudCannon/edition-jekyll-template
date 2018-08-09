@@ -1,6 +1,6 @@
 ---
 title: 1. Newsletters
-category: 7. Animation  de la plateforme
+category: 7. Animation de la plateforme
 order: 2
 ---
 
