@@ -1,5 +1,5 @@
 ---
-title: 2. Suivre les initiatives
+title: 5.2 Suivre les initiatives
 category: 5. Initiatives
 order: 3
 ---

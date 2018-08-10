@@ -1,5 +1,5 @@
 ---
-title: 2. Modération
+title: 7.2 Modération
 category: 7. Animation de la plateforme
 order: 3
 ---
