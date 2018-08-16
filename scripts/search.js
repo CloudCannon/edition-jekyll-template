@@ -73,7 +73,7 @@ layout: null
 			});
 
 			searchResultsEl.innerHTML = resultsHTML;
-			searchProcessEl.innerText = "Showing";
+			searchProcessEl.innerText = "Voici";
 		} else {
 			searchResultsEl.style.display = "none";
 			searchProcessEl.innerText = "No";

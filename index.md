@@ -1,38 +1,15 @@
 ---
-title: Welcome
+title: Bienvenue
+category: Notice Decidim FR
 ---
 
-This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
-**Edition** is perfect for documenting your product, application or service.
-It's populated with example content to give you some ideas.
 
-ChatApp is a fictional chat application for sending messages and media to others.
-Teams and friend groups would use ChatApp to stay up to date if it existed.
+*Vous avez installé ou avez été invité·e à administrer une instance Decidim.* 
 
-> [Sign up](http://example.com/signup) or learn more about ChatApp at [example.com](http://example.com/).
+*Cette notice couvre l'ensemble des fonctionnalités de la version 0.12 de Decidim, complétée par les développements réalisés par Open Source Politics.* 
 
-### Getting Started
+*Le code source est accessible [à cette adresse](https://github.com/OpenSourcePolitics/decidim).*
 
-Getting a message sent is quick and easy with ChatApp:
+--
 
-1. Sign up for an account
-2. Add your friends from their email addresses
-3. Type a message or send a photo
-
-> Feel free to send us a message at [feedback@example.com](mailto:feedback@example.com) with your feedback.
-
-### Features
-
-Explore more of ChatApp by reading about our features:
-
-#### Media
-
-Send images, videos and other media to people. Sources include your computer, phone and Facebook.
-
-#### Contact Syncing
-
-Sync your contact list with your phone and/or Facebook contacts. Never lose your contacts between devices again!
-
-#### Devices
-
-ChatApp is available everywhere. Find out how to set it up on your all your devices.
+*Pour en savoir plus sur Decidim et l'accompagnement que nous pouvons vous apporter dans la réussite de vos démarches participatives en ligne, retrouvez-nous sur [Twitter](https://twitter.com/OpenSourcePol) et contactez-nous depuis notre site [opensourcepolitics.eu](http://www.opensourcepolitics.eu/).*
