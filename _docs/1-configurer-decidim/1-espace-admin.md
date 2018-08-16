@@ -13,17 +13,17 @@ Vous accédez au *back-office* :
 
 La barre de gauche contient les éléments suivants (nous indiquons les numéros de notice correspondant à chacun) :
 * Tableau de bord (1.1)
-* Concertations (XXX)
-* Groupes de concertations (XXX)
-* Agora (XXX)
-* Initiatives (XXX)
-* Consultations (XXX)
-* [Pages]({{site.baseurl}}/configurer-decidim/creer-pages-informations/) (1.6)
-* Utilisateurs (XXX)
-* Bulletins d'information/newsletter (XXX)
-* [Paramètres]({{site.baseurl}}/configurer-decidim/parametres-demarrage/) (1.2)
-* Journal d'activité personnel (XXX)
-* Applications oAuth (XXX)
+* [Concertations]({{site.baseurl}}/3-concertations/0-index/) (3)
+* Groupes de concertations (fonctionnalité peu développée à ce stade)
+* [Agora ou Assemblées]({{site.baseurl}}/4-assemblees/1-configurer-assemblees/) (4)
+* [Initiatives]({{site.baseurl}}/5-initiatives/1-configurer-initiatives/) (5.1)
+* [Consultations ou Votations]({{site.baseurl}}/6-votations/0-index/) (6)
+* [Pages]({{site.baseurl}}/1-configurer-decidim/6-creer-pages-informations/) (1.6)
+* [Utilisateurs]({{site.baseurl}}/2-utilisateurs/0-index/) (2)
+* [Bulletins d'information/newsletter]({{site.baseurl}}/7-animation-plateforme/1-newsletters/) (7.1)
+* [Paramètres]({{site.baseurl}}/1-configurer-decidim/1-parametres-demarrage/) (1.2)
+* Journal d'activité personnel (1.1)
+* Applications oAuth (nous consulter)
 
 Le tableau de bord présente le journal d'administration qui recense toutes les actions effectuées par les administrateurs de la plateforme. Il est indispensable pour un travail serein en équipe. Vous pouvez également accéder à un journal d'activité personnel en bas de cette barre latérale de menu.
 
