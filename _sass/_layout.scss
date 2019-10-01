@@ -173,7 +173,7 @@ $nav-image: $baseurl + "/images/menu.svg";
 .page-header {
 	max-width: $content-max-width;
 	padding: 0 ($space + 5) $space;
-	margin: $space auto 0 auto;
+	margin: $space auto 0 0;
 }
 
 .page-header {
