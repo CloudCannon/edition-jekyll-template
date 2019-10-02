@@ -20,7 +20,7 @@ author:
 
 timezone: Etc/UTC
 
-permalink: pretty
+permalink: /:categories/:title
 
 plugins:
   - jekyll-sitemap

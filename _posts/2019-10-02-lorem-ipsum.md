@@ -3,7 +3,7 @@ title: Media support
 type: major
 ---
 
-ChatApp introduces media support! Send images, videos and documents to your contacts.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 
 **Features:**
 
