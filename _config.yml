@@ -9,7 +9,7 @@ show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /images/bitcoinvn.svg
-description: Information and documentation regarding BTMs of BitcoinVN
+description: Information and documentation regarding BTM network of BitcoinVN
 author:
   name: BitcoinVN
   email: btm@bitcoinvn.io
