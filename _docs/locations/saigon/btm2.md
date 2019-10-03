@@ -2,6 +2,9 @@
 category: Locations, Saigon
 title: BTM2 - Italiani's Pizza Han Thuyen
 layout: btm
+interface_lang:
+    - vi
+    - en
 cryptos:
     BTC: {"buy": true, "sell": true}
     ETH: {"buy": true, "sell": true}

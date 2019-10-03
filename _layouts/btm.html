@@ -57,4 +57,13 @@ layout: default
     </table>
 {% endif %}
 
+{% if page.interface_lang.size > 0 %}
+    <h2>Interface languages</h2>
+    <ul>
+        {% for lang in page.interface_lang %}
+            <li>{{ site.data.locales | where: 'locale', lang | map: 'name' }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
 {{ content }}
