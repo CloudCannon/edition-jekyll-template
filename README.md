@@ -1,4 +1,6 @@
-# BitcoinVN BTM [![Build Status](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?branch=master)](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io)
+# BitcoinVN BTM
+
+[![Build Status](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?branch=master)](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io)
 
 Product information and documentation for [BitcoinVN](https://bitcoinvn.io/en) BTMs.
 

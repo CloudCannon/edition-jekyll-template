@@ -43,4 +43,33 @@
             <a href="{{ site.baseurl }}/updates">{{ updates.title }}</a>
         </li>
     </ul>
+
+    <ul>
+        <li class="nav-item top-level">
+            <a href="javascript:">Get in touch</a>
+            <ul>
+                {% if site.social.email %}
+                    <li class="nav-item">
+                        <a href="mailto:{{ site.social.email }}" title="Send us an email">
+                            <i class="far fa-envelope fa-fw"></i> Email
+                        </a>
+                    </li>
+                {% endif %}
+                {% if site.social.telegram %}
+                    <li class="nav-item">
+                        <a href="{{ site.social.telegram }}" title="Join our Telegram group" target="_blank">
+                            <i class="fab fa-telegram-plane fa-fw"></i> Telegram
+                        </a>
+                    </li>
+                {% endif %}
+                {% if site.social.facebook %}
+                    <li class="nav-item">
+                        <a href="{{ site.social.facebook }}" title="Visit us on Facebook" target="_blank">
+                            <i class="fab fa-facebook-f fa-fw"></i> Facebook
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </li>
+    </ul>
 </nav>

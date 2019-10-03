@@ -7,12 +7,17 @@ baseurl:
 google_analytics_key:
 show_full_navigation: true
 
+social:
+  email: btm@bitcoinvn.io
+  facebook: https://www.facebook.com/BitcoinATMHCMC
+  telegram: https://t.me/BitcoinATMVietnamUpdates
+
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /images/bitcoinvn.svg
 description: Information and documentation regarding BTM network of BitcoinVN
 author:
   name: BitcoinVN
-  email: btm@bitcoinvn.io
+  email: info@bitcoinvn.io
   twitter: Bitcoin_Vietnam
 
 # -----
