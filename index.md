@@ -6,6 +6,8 @@ title: Welcome
 
 BitcoinVN Bitcoin ATM (BTM) is a terminal that allows you to buy or sell 20+ cryptocurrencies, including Bitcoin, for Vietnam Dong cash.
 
+## Why use a BitcoinVN BTM?
+
 ### No bank account required
 
 Many banks have banned their accounts used in order to buy or sell cryptocurrency. Other banks can ask for more 
