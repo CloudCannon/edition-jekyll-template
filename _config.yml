@@ -25,7 +25,7 @@ author:
 
 timezone: Etc/UTC
 
-permalink: /:categories/:title
+permalink: /:categories/:year/:month/:day/:title
 
 plugins:
   - jekyll-sitemap
@@ -78,5 +78,6 @@ defaults:
 # CloudCannon
 
 types:
+  - announcement
   - minor
   - major
