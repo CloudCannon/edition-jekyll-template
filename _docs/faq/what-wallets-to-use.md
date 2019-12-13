@@ -1,12 +1,9 @@
 ---
 category: FAQ
-title: What Bitcoin wallets can I use?
+title: BTM does not recognise my Bitcoin wallet?
 order: 8
 ---
 
-To buy crypto, we recommend using a personal wallet (e.g. by downloading Trust Wallet app), but you can also use a 
-paper wallet or an exchange wallet. If BTM does not recognise the wallet, then please make sure you use a legacy 
-(or non segwit) Bitcoin wallet, such as Trust Wallet app or BTC.COM app).
+BTMs currently support only the "segwit compatible" Bitcoin wallet format. If BTM does not recognise your wallet, then please either change the wallet address type, or import the wallet into Mycelium or BTC.com wallets.
 
-To sell crypto, we recommend using a personal wallet (e.g. by downloading Trust Wallet app). Exchange wallets can 
-cause delays and cancelled transactions.
+As a reminder, we always recommend using a personal wallet (e.g. Mycelium or BTC.com). Other wallets can be used to buy cryptocurrency, but using exchange wallets to sell can cause delays or cancelled transactions.
