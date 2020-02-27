@@ -2,8 +2,8 @@
 # Site
 
 title: Edition Template
-url: "https://long-pig.cloudvent.net"
-baseurl:
+url: "edition-jekyll-template"
+baseurl: "https://whytehack.github.io/"
 google_analytics_key:
 show_full_navigation: true
 
