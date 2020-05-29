@@ -18,7 +18,7 @@ title: The fastest & most anonymous way to buy & sell Bitcoin and 20+ altcoins f
 
 BitcoinVN Bitcoin ATM (BTM) is a self-service kiosk that allows you to buy or sell 20+ cryptocurrencies, including Bitcoin, for cash.
 
-![](https://github.com/bitcoinvietnam/btm.bitcoinvn.io/blob/master/images/BTMwithTrang.jpg)
+![](https://github.com/bitcoinvietnam/btm.bitcoinvn.io/blob/master/images/BTMwithTrang.jpg?raw=true)
 
 ----
 
