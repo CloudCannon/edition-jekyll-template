@@ -2,6 +2,8 @@
 title: The fastest & most anonymous way to buy & sell Bitcoin and 20+ altcoins for cash in Vietnam
 ---
 
+----
+
 ## What would you like to do?
 
 * [Find a Bitcoin ATM](https://bitaccessbtm.com/locations/Vietnam)
@@ -97,6 +99,8 @@ using their credit cards to receive cash or traditional currency exchanges.
 BitcoinVN continuously monitors BTMs to ensure they are fully functioning. We regularly post availability updates 
 on our Facebook page and Telegram channel. No nasty surprises from visiting the BTM location and finding out 
 it is offline!
+
+----
 
 ## How to buy Bitcoin with a BitcoinVN BTM?
 
