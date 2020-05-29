@@ -2,7 +2,7 @@
 title: The fastest & most anonymous way to buy & sell Bitcoin and 20+ altcoins for cash in Vietnam
 ---
 
-##What would you like to do?
+## What would you like to do?
 
 * [Find a Bitcoin ATM](https://bitaccessbtm.com/locations/Vietnam)
 * [Sell Bitcoin or altcoin (Start the process online & pick up cash without waiting)](https://bitaccessbtm.com/locations/Vietnam)
