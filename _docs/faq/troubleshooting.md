@@ -14,10 +14,6 @@ Step 0 - Before you leave
 + Prepare the cash you want to buy cryptocurrency with. We recommend using 500,000 VND banknotes to make the purchase process faster.
 + Prepare your Bitcoin wallet
   * The wallet should be in the format of a QR code. If you use a service to convert a text address into a QR code (such as [this one](https://www.qr-code-generator.com/solutions/bitcoin-qr-code/)), you can check that the QR code address is correct by converting it back to text using your mobile wallet, or a QR code reader on your phone, or [this tool](https://zxing.org/w/decode.jspx) or [this one](https://www.the-qrcode-generator.com/scan)
-  * Bitcoin ATMs only support "SegWit Compatible (P2SH)" wallets. These wallet formats start with a 3. If your app doesn't support this format, you can use another wallet, such as Electrum, as shown below.
-  
-  ![](/images/buy_guide/SegWitCompatible.jpg)
-
 
 
 Step 1 - Choose your language and click "Start"
