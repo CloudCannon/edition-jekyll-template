@@ -10,8 +10,6 @@ Basic Regression
 
 To sync your contacts:
 
-1. Open your *User Settings*
-2. Select the **Connect Facebook** button
-3. Authorise ChatApp
+1. Supervised *ww*
+2. Learning **??** 
 
-![](//placehold.it/800x600)
