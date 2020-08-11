@@ -1,14 +1,15 @@
 ---
-title: Supervised Learning
-category: Data Science
+title: Basic Regression
+category: Supervised Learning
 order: 1
 ---
 
-> Superviesd Learning (Continuous Variable Prediction)
+Supervised Learning (Continuous Variable Prediction)
+> Basic Regression
 
 Basic Regression
 
-To sync your contacts:
+HELLO
 
 1. Supervised *ww*
 2. Learning **??** 
