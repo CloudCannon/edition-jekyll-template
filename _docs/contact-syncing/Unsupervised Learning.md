@@ -1,8 +1,10 @@
 ---
-title: Phone
-category: Contact Syncing
+title: Unsupervised Learning
+category: Data Science
 order: 2
 ---
+
+> Unsupervised Learning
 
 Sync your phone contacts with ChatApp. ChatApp saves your phone contacts and adds anyone with an email address to your contact list!
 
