@@ -1,7 +1,7 @@
 ---
-title: Data Science
-category: Supervised Learning
-order: 2
+title: Supervised Learning
+category: Data Science
+order: 1
 ---
 
 > Superviesd Learning (Continuous Variable Prediction)
