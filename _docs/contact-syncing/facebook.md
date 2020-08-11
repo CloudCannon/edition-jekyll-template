@@ -1,12 +1,12 @@
 ---
-title: Facebook
-category: Contact Syncing
-order: 1
+title: Data Science
+category: Supervised Learning
+order: 2
 ---
 
-Sync your Facebook contacts with ChatApp. Any of your Facebook friends with ChatApp accounts are automatically added to your contact list!
+> Superviesd Learning (Continuous Variable Prediction)
 
-> Signing up with Facebook automatically starts syncing contacts.
+Basic Regression
 
 To sync your contacts:
 
