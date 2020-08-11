@@ -1,10 +1,10 @@
 ---
-title: Unsupervised Learning
-category: Data Science
+title: K-Mean
+category: Unsupervised Learning
 order: 1
 ---
 
-> Unsupervised Learning
+> K-Mean
 
 
 
