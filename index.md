@@ -1,11 +1,11 @@
 ---
-title: The fastest & most anonymous way to buy & sell Bitcoin and 20+ altcoins for cash in Vietnam
+title: The fastest & most anonymous way to buy & sell Bitcoin for cash in Vietnam
 ---
 
 ## What would you like to do?
 
 * [Find a Bitcoin ATM](https://bitaccessbtm.com/locations/Vietnam)
-* [Sell Bitcoin or altcoin (Start the process online & pick up cash without waiting)](https://bitaccessbtm.com/locations/Vietnam)
+* [Sell Bitcoin (Start the process online & pick up cash without waiting)](https://bitaccessbtm.com/locations/Vietnam)
 * Learn how it works - please find the video at the bottom of this page
 * [Read FAQ](https://btm.bitcoinvn.io/faq/what-is-a-bitcoin-atm)
 * Follow or Contact us - please find our email, Facebook page with regular updates & customer support, and our Telegram channel where we post regular updates on the left hand side of the page 
@@ -14,7 +14,7 @@ title: The fastest & most anonymous way to buy & sell Bitcoin and 20+ altcoins f
 
 ## What is a Bitcoin ATM?
 
-BitcoinVN Bitcoin ATM (BTM) is a self-service kiosk that allows you to buy or sell 20+ cryptocurrencies, including Bitcoin, for cash.
+BitcoinVN Bitcoin ATM (BTM) is a self-service kiosk that allows you to buy or sell Bitcoin for cash.
 
 ![](/images/BTMwithTrang.jpg)
 
