@@ -1,6 +1,6 @@
 ---
 category: Locations, Saigon
-title: BTM2 - Italiani's Pizza Han Thuyen
+title: BTM2 - Italiani's Pizza, D1
 layout: btm
 interface_lang:
     - vi
