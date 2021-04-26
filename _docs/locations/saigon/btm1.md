@@ -1,6 +1,6 @@
 ---
 category: Locations, Saigon
-title: BTM1 - Big Pig BBQ & Beer - Cao Thang
+title: BTM1 - Big Pig BBQ & Beer, D3
 layout: btm
 interface_lang:
     - vi
