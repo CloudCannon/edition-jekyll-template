@@ -1,4 +1,4 @@
-# BitcoinVN BTM
+# THONG NGO
 
 [![Build Status](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?branch=master)](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io)
 
