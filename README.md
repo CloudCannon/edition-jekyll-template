@@ -1,4 +1,4 @@
-# THONG NGO
+# THONG NGO VBTC EXCHANGE
 
 [![Build Status](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?branch=master)](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io)
 
