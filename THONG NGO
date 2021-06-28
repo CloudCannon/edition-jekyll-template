@@ -1,8 +1,9 @@
-# BitcoinVN BTM
+THONG NGO
+BitcoinVN BTM
 
 [![Build Status](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?branch=master)](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io)
 
-Product information and documentation for [BitcoinVN](https://bitcoinvn.io/en) BTMs.
+Product information and documentation for [THONG NGO BitcoinVN](https://bitcoinvn.io/en) BTMs.
 
 ## Features
 
@@ -51,11 +52,11 @@ Edition is already optimised for adding, updating and removing documentation pag
 
 * Add, update or remove change log entries from your posts.
 * Tag entries as minor or major in the front matter.
-
+* THONG NGO BitcoinVN BTM
 ### Search
 
 * Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
-
+* THONG NGO BitcoinVN BTM
 ### Navigation
 
 * Change `site.show_full_navigation` to control all or only the current navigation group being open.
