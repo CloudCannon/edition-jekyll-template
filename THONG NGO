@@ -1,0 +1,145 @@
+# THONG NGO
+
+[![Build Status](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?branch=master)](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io)
+
+Product information and documentation for [BitcoinVN](https://bitcoinvn.io/en) BTMs.
+
+## Features
+
+* Two column layout
+* Full text search
+* Pre-styled components
+* Auto-generated navigation based on category
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Change log
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
+
+## Setup
+
+1. Add your site and author details in `_config.yml`.
+2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+
+## Develop
+
+BitcoinVN BTM was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+
+Install the dependencies with [Bundler](http://bundler.io/):
+
+~~~bash
+$ bundle install
+~~~
+
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
+
+~~~bash
+$ bundle exec jekyll serve
+~~~
+
+## Editing
+
+Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
+
+### Documentation pages
+
+* Add, update or remove a documentation page in the *Documentation* collection.
+* Change the category of a documentation page to move it to another section in the navigation.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
+
+### Change log
+
+* Add, update or remove change log entries from your posts.
+* Tag entries as minor or major in the front matter.
+
+### Search
+
+* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+
+### Navigation
+
+* Change `site.show_full_navigation` to control all or only the current navigation group being open.
+
+THONG NGO
+(img/ab.c-logo.png "the Accept Bitcoin Cash initiative")
+==================
+A community-curated list of sites/merchants that accept [**Bitcoin Cash**]
+(https://www.bitcoincash.org), _a peer-to-peer electronic cash system_ suitable
+for the digital age, and the future of online commerce.
+Add a site that's not listed, or provide any updates/corrections by submitting a
+pull request, or [creating an issue]
+(https://github.com/acceptbitcoincash/acceptbitcoincash/issues). Learn how to do
+either by reading [our contribution guidelines](CONTRIBUTING.md).
+[![Build Status](https://travis-ci.org/acceptbitcoincash/acceptbitcoincash.svg?
+branch=master)](https://travis-ci.org/acceptbitcoincash/acceptbitcoincash)
+[![GitHub pull-requests](https://img.shields.io/github/issues-
+pr/acceptbitcoincash/acceptbitcoincash.svg)]
+(https://github.com/acceptbitcoincash/acceptbitcoincash/pulls/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-
+closed/acceptbitcoincash/acceptbitcoincash.svg)]
+(https://github.com/acceptbitcoincash/acceptbitcoincash/issues?
+q=is%3Aissue+is%3Aclosed)
+[![Twitter](https://img.shields.io/badge/Twitter-@useBitcoinCash-blue.svg)]
+(https://twitter.com/useBitcoinCash)
+[![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat)]
+(/LICENSE)
+## The Goal
+The goal is to build a website ([https://acceptBitcoin.cash]
+(https://acceptBitcoin.Cash)) with a comprehensive list of sites that accept or
+support Bitcoin Cash, as well as Bitcoin (Legacy).
+Our hope is to connect consumers and merchants, while spreading awareness and
+promoting global adoption of [Bitcoin Cash](https://www.bitcoincash.org).
+The site maintainers do not endorse nor confirm the legitimacy of any of the
+listings linked to on this site. This is an open source project which accepts
+submissions from the general community. While we try our best to verify the
+information submitted, it's possible that we may miss something.
+## Contributing
+If you'd like to contribute to the list, please read the entire guidelines here
+in
+[CONTRIBUTING.md](CONTRIBUTING.md).
+## Running Locally
+acceptBitcoin.cash is built upon [Jekyll](https://jekyllrb.com/), using the
+[github-pages](https://github.com/github/pages-gem) gem.
+In order to run the site locally, it is necessary to install bundler, install all
+dependencies, and then use Jekyll to serve
+the site. If the `gem` command is not available to you, it is necessary to
+install Ruby with RubyGems.
+Once Ruby and RubyGems are installed and available from the command line,
+acceptBitcoin.cash can be setup using the following commands.
+```
+gem install bundler
+cd ~/acceptbitcoincash
+bundle install
+bundle exec jekyll serve
+```
+The acceptBitcoin.cash website should then be accessible from
+
+`https://bitcoincash.org`.
+## Docker
+acceptBitcoin.cash also includes a Docker image for easy deployment. You can
+build and run the Docker image using the following commands.
+```
+cd ~/acceptbitcoincash
+gem install bundler
+bundle install
+bundle exec jekyll build
+docker build -t acceptbitcoincash .
+docker run -p4000:80 acceptbitcoincash
+```
+If you are doing development, and want to launch a jekyll server which can track
+your changes. Then you can use the following commands.
+```
+cd ~/acceptbitcoincash
+docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll:z \
+-it -p 127.0.0.1:4000:4000 jekyll/jekyll:latest jekyll s
+```
+The acceptBitcoin.cash website should then be accessible from
+`https://bitcoincash.org`.
+## License
+This code is distributed under the MIT license. For more info, read the
+[LICENSE](/LICENSE) file distributed with the source code.
+[#478559](https://blockchair.com/bitcoin-cash/block/478559 "The Exodus block.")
+
+Name: THONG NGO
+Email: quangthong1011@gmail.com
+Phone number: +84915101105
