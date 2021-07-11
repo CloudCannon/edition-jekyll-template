@@ -1,7 +1,7 @@
 ---
-name: THONG NGO BITCOIN VN BTM
-about: THONG NGO BITCOIN VN
-title: ''
+name: THONG NGO
+about: THONG NGO BitcoinVN
+title: BITCOIN VN BTM
 labels: THONG NGO
 assignees: QuangThong1
 
