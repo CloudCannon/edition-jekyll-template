@@ -1,0 +1,74 @@
+- symbol: BTC
+  name: Bitcoin
+
+- symbol: ETH
+  name: Ethereum
+
+- symbol: BCH
+  name: Bitcoin Cash
+
+- symbol: LTC
+  name: Litecoin
+
+- symbol: XMR
+  name: Monero
+
+- symbol: DAI
+  name: Dai
+
+- symbol: USDC
+  name: USD Coin
+
+- symbol: TUSD
+  name: TrueUSD
+
+- symbol: XRP
+  name: Ripple
+
+- symbol: TRON
+  name: Tron
+
+- symbol: ZRX
+  name: 0x
+
+- symbol: BAT
+  name: Basic Attention Token
+
+- symbol: LINK
+  name: Chainlink Token
+
+- symbol: MANA
+  name: Decentraland
+
+- symbol: EDR
+  name: Endor Protocol
+
+- symbol: ENJ
+  name: Enjin Coin
+
+- symbol: FUN
+  name: FunFair
+
+- symbol: GNT
+  name: Golem
+
+- symbol: LOOM
+  name: Loom Network
+
+- symbol: LUN
+  name: Lunyr
+
+- symbol: MTL
+  name: Metal
+
+- symbol: PAX
+  name: Paxos Standard
+
+- symbol: POLY
+  name: Polymath
+
+- symbol: SNGLS
+  name: SingularDTV
+
+- symbol: UKG
+  name: Unikoin Gold
