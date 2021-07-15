@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% if page.google_maps_url %}
+    <h2>Location</h2>
+    <iframe
+            src="{{ page.google_maps_url }}"
+            width="100%"
+            height="320"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+    >
+    </iframe>
+{% endif %}
+
+{% if page.cryptos.size > 0 %}
+    <h2>Cryptocurrencies</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Buy</th>
+            <th>Sell</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for crypto in page.cryptos %}
+            {% assign symbol = crypto | first %}
+            {% for cryptoConfig in site.data.cryptos %}
+                {% if cryptoConfig.symbol == symbol %}
+                    <tr>
+                        <td>
+                            <strong>{{ cryptoConfig.name | default: symbol }}</strong>
+                            <small style="color:grey">{{ cryptoConfig.symbol }}</small>
+                        </td>
+                        <td>
+                            {% if page.cryptos[symbol].buy %}
+                                <span style="color: green" title="You can buy {{ cryptoConfig.name }} at {{ page.title }}">&check;</span>
+                            {% else %}
+                                <span style="color: red">&cross;</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if page.cryptos[symbol].sell %}
+                                <span style="color: green" title="You can sell {{ cryptoConfig.name }} at {{ page.title }}">&check;</span>
+                            {% else %}
+                                <span style="color: red">&cross;</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
+
+{% if page.interface_lang.size > 0 %}
+    <h2>Interface languages</h2>
+    <ul>
+        {% for lang in page.interface_lang %}
+            <li>{{ site.data.locales | where: 'locale', lang | map: 'name' }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+{{ content }}

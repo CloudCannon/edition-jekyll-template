@@ -1,30 +1,31 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
+title: BitcoinVN BTM
+url: https://btm.bitcoinvn.io
 baseurl:
 google_analytics_key:
 show_full_navigation: true
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Product documentation template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
 social:
-  name: Edition Template
-  links:
-    - https://github.com/CloudCannon/edition-jekyll-template
+  email: btm@bitcoinvn.io
+  facebook: https://www.facebook.com/BitcoinATMHCMC
+  telegram: https://t.me/BitcoinATMVietnamUpdates
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /images/bitcoinvn.svg
+description: Information and documentation regarding BTM network of BitcoinVN
+author:
+  name: BitcoinVN
+  email: info@bitcoinvn.io
+  twitter: Bitcoin_Vietnam
 
 # -----
 # Build
 
 timezone: Etc/UTC
 
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title
 
 plugins:
   - jekyll-sitemap
@@ -32,15 +33,17 @@ plugins:
   - jekyll-feed
 
 exclude:
+  - .idea
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENCE
+  - vendor
 
 collections:
   docs:
     title: Documentation
-    permalink: /:path/
+    permalink: /:path
     output: true
 
 defaults:
@@ -75,5 +78,6 @@ defaults:
 # CloudCannon
 
 types:
+  - announcement
   - minor
   - major

@@ -1,0 +1,80 @@
+<div class="header-title">
+    <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/bitcoinvn.svg" width="40" height="40" alt="{{ site.title }} logo"></a>
+    {{ site.title }}
+    <button type="button" class="open-nav" id="open-nav"></button>
+</div>
+
+<form action="{{ site.baseurl }}/search" method="get">
+    <input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+    <input type="submit" value="Search" style="display: none;">
+</form>
+
+<nav {% if site.show_full_navigation %}class="full-navigation"{% endif %}>
+    <ul>
+        <li class="nav-item top-level {% if page.url == '/' %}current{% endif %}">
+            {% assign home = site.html_pages | where: 'url', '/' | first %}
+            <a href="{{ home.url }}" title="{{ site.title }}">
+                {{ home.title | escape }}
+            </a>
+        </li>
+    </ul>
+    <ul>
+        {% assign grouped = site.docs | group_by: 'category' | reverse %}
+        {% for group in grouped %}
+            <li class="nav-item top-level {% if group.name == page.category %}current{% endif %}">
+                {% assign items = group.items | sort: 'order' %}
+                <a href="{{ site.baseurl }}{{ items.first.url }}">{{ group.name }}</a>
+                <ul>
+                    {% for item in items %}
+                        <li class="nav-item {% if item.url == page.url %}current{% endif %}">
+                            <a href="{{ site.baseurl }}{{ item.url }}" title="{{ item.title | escape }}">
+                                {{ item.title | escape }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <ul>
+        <li class="nav-item top-level {% if page.url == '/updates' %}current{% endif %}">
+            {% assign updates = site.html_pages | where: 'url', '/updates' | first %}
+            <a href="{{ site.baseurl }}/updates">{{ updates.title }}</a>
+        </li>
+    </ul>
+
+    <ul>
+        <li class="nav-item top-level">
+            <a href="javascript:">Get in touch</a>
+            <ul>
+                {% if site.social.email %}
+                    <li class="nav-item">
+                        <a href="mailto:{{ site.social.email }}" title="Send us an email">
+                            <i class="far fa-envelope fa-fw"></i> Email
+                        </a>
+                    </li>
+                {% endif %}
+                {% if site.social.telegram %}
+                    <li class="nav-item">
+                        <a href="{{ site.social.telegram }}" title="Join our Telegram group" target="_blank">
+                            <i class="fab fa-telegram-plane fa-fw"></i> Telegram
+                        </a>
+                    </li>
+                {% endif %}
+                {% if site.social.facebook %}
+                    <li class="nav-item">
+                        <a href="{{ site.social.facebook }}" title="Visit us on Facebook" target="_blank">
+                            <i class="fab fa-facebook-f fa-fw"></i> Facebook
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </li>
+        <li class="nav-item top-level">
+            <a href="https://bitcoinvn.io/en" title="BitcoinVN" target="_blank">
+                Buy Bitcoin online
+            </a>
+        </li>
+    </ul>
+</nav>
