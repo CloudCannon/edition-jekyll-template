@@ -1,5 +1,5 @@
 #THONG NGO
-category: FAQ 
+category: BitcoinVN
 title: BitcoinVN BTM
 order: 7
 ---
