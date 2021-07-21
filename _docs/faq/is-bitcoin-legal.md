@@ -1,6 +1,6 @@
 ---
 category: FAQ
-title: Is buying and selling Bitcoin legal in Vietnam?
+title: THONG NGO
 order: 7
 ---
 
