@@ -1,83 +1,112 @@
-# ----
-# Site
+From c645d0ac050f6f701df8b4e230fdabde2bae934f Mon Sep 17 00:00:00 2001
+From: THONG NGO <38796360+QuangThong1@users.noreply.github.com>
+Date: Mon, 28 Jun 2021 13:02:01 +0700
+Subject: [PATCH 1/2] THONG NGO BitcoinVN BTM
 
-title: BitcoinVN BTM
-url: https://btm.bitcoinvn.io
-baseurl:
-google_analytics_key:
-show_full_navigation: true
+BitcoinVN
+THONG NGO BitcoinVN BTM
+---
+ README.md => THONG NGO | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+ rename README.md => THONG NGO (91%)
 
-social:
-  email: btm@bitcoinvn.io
-  facebook: https://www.facebook.com/BitcoinATMHCMC
-  telegram: https://t.me/BitcoinATMVietnamUpdates
+diff --git a/README.md b/THONG NGO
+similarity index 91%
+rename from README.md
+rename to THONG NGO
+index 737a93062..355c43384 100644
+--- a/README.md
++++ b/THONG NGO	
+@@ -1,8 +1,9 @@
+-# BitcoinVN BTM
++THONG NGO
++BitcoinVN BTM
+ 
+ [![Build Status](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?branch=master)](https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io)
+ 
+-Product information and documentation for [BitcoinVN](https://bitcoinvn.io/en) BTMs.
++Product information and documentation for [THONG NGO BitcoinVN](https://bitcoinvn.io/en) BTMs.
+ 
+ ## Features
+ 
+@@ -51,11 +52,11 @@ Edition is already optimised for adding, updating and removing documentation pag
+ 
+ * Add, update or remove change log entries from your posts.
+ * Tag entries as minor or major in the front matter.
+-
++* THONG NGO BitcoinVN BTM
+ ### Search
+ 
+ * Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+-
++* THONG NGO BitcoinVN BTM
+ ### Navigation
+ 
+ * Change `site.show_full_navigation` to control all or only the current navigation group being open.
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /images/bitcoinvn.svg
-description: Information and documentation regarding BTM network of BitcoinVN
-author:
-  name: BitcoinVN
-  email: info@bitcoinvn.io
-  twitter: Bitcoin_Vietnam
+From 1ec420b324dcd5f1715379007f80d9ad1234a8d8 Mon Sep 17 00:00:00 2001
+From: THONG NGO <quangthong2405@gmail.com>
+Date: Wed, 21 Jul 2021 08:32:53 +0700
+Subject: [PATCH 2/2] THONG NGO
 
-# -----
-# Build
+BitcoinVN.io
+---
+ .../workflows/THONG NGO.codacy-analysis.yml   | 49 +++++++++++++++++++
+ 1 file changed, 49 insertions(+)
+ create mode 100644 .github/workflows/THONG NGO.codacy-analysis.yml
 
-timezone: Etc/UTC
-
-permalink: /:categories/:year/:month/:day/:title
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-
-exclude:
-  - .idea
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
-  - vendor
-
-collections:
-  docs:
-    title: Documentation
-    permalink: /:path
-    output: true
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: default
-  -
-    scope:
-      path: ""
-      type: "docs"
-    values:
-      seo:
-        type: Article
-      _comments:
-        category: Group navigation links with this field
-        order: Used to sort links in the navigation
-      _options:
-        content:
-          width: 800
-          height: 2000
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      _comments:
-        type: Marks the impact of this release
-
-# -----------
-# CloudCannon
-
-types:
-  - announcement
-  - minor
-  - major
+diff --git a/.github/workflows/THONG NGO.codacy-analysis.yml b/.github/workflows/THONG NGO.codacy-analysis.yml
+new file mode 100644
+index 000000000..af4f14f33
+--- /dev/null
++++ b/.github/workflows/THONG NGO.codacy-analysis.yml	
+@@ -0,0 +1,49 @@
++# This workflow checks out code, performs a Codacy security scan
++# and integrates the results with the
++# GitHub Advanced Security code scanning feature.  For more information on
++# the Codacy security scan action usage and parameters, see
++# https://github.com/codacy/codacy-analysis-cli-action.
++# For more information on Codacy Analysis CLI in general, see
++# https://github.com/codacy/codacy-analysis-cli.
++
++name: Codacy Security Scan
++
++on:
++  push:
++    branches: [ master ]
++  pull_request:
++    # The branches below must be a subset of the branches above
++    branches: [ master ]
++  schedule:
++    - cron: '37 8 * * 2'
++
++jobs:
++  codacy-security-scan:
++    name: Codacy Security Scan
++    runs-on: ubuntu-latest
++    steps:
++      # Checkout the repository to the GitHub Actions runner
++      - name: Checkout code
++        uses: actions/checkout@v2
++
++      # Execute Codacy Analysis CLI and generate a SARIF output with the security issues identified during the analysis
++      - name: Run Codacy Analysis CLI
++        uses: codacy/codacy-analysis-cli-action@1.1.0
++        with:
++          # Check https://github.com/codacy/codacy-analysis-cli#project-token to get your project token from your Codacy repository
++          # You can also omit the token and run the tools that support default configurations
++          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
++          verbose: true
++          output: results.sarif
++          format: sarif
++          # Adjust severity of non-security issues
++          gh-code-scanning-compat: true
++          # Force 0 exit code to allow SARIF file generation
++          # This will handover control about PR rejection to the GitHub side
++          max-allowed-issues: 2147483647
++
++      # Upload the SARIF file generated in the previous step
++      - name: Upload SARIF results file
++        uses: github/codeql-action/upload-sarif@v1
++        with:
++          sarif_file: results.sarif
