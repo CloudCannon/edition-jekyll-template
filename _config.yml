@@ -1,14 +1,14 @@
 # ----
-# Site
-
+# Site 
+BitcoinVN
 title: BitcoinVN BTM
 url: https://btm.bitcoinvn.io
-baseurl:
-google_analytics_key:
+baseurl:8000af1fc817fcacc8ea2372aea64dae265c4976
+google_analytics_key:AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM
 show_full_navigation: true
 
 social:
-  email: btm@bitcoinvn.io
+  email: quangthong1011@gmail.com
   facebook: https://www.facebook.com/BitcoinATMHCMC
   telegram: https://t.me/BitcoinATMVietnamUpdates
 
@@ -16,8 +16,8 @@ social:
 logo: /images/bitcoinvn.svg
 description: Information and documentation regarding BTM network of BitcoinVN
 author:
-  name: BitcoinVN
-  email: info@bitcoinvn.io
+  name: Thong Ngo
+  email: quangthong1011@gmail.com
   twitter: Bitcoin_Vietnam
 
 # -----
