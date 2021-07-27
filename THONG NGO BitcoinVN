@@ -1,10 +1,10 @@
 From c645d0ac050f6f701df8b4e230fdabde2bae934f Mon Sep 17 00:00:00 2001
 From: THONG NGO <38796360+QuangThong1@users.noreply.github.com>
 Date: Mon, 28 Jun 2021 13:02:01 +0700
-Subject: [PATCH 1/2] THONG NGO BitcoinVN BTM
+Subject: [PATCH 1/2] BitcoinVN BTM
 
 BitcoinVN
-THONG NGO BitcoinVN BTM
+BitcoinVN BTM
 ---
  README.md => THONG NGO | 9 +++++----
  1 file changed, 5 insertions(+), 4 deletions(-)
@@ -34,12 +34,12 @@ index 737a93062..355c43384 100644
  * Add, update or remove change log entries from your posts.
  * Tag entries as minor or major in the front matter.
 -
-+* THONG NGO BitcoinVN BTM
++* THONG NGO BitcoinVN
  ### Search
  
  * Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
 -
-+* THONG NGO BitcoinVN BTM
++* THONG NGO BitcoinVN
  ### Navigation
  
  * Change `site.show_full_navigation` to control all or only the current navigation group being open.
