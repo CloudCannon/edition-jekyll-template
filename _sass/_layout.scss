@@ -1,463 +1,446 @@
-input::-ms-clear,
-input::-ms-reveal {
-  display: none !important;
-}
-
-body {
-  height: auto;
-  overflow-x: hidden;
-  background-color: $body-background-color;
-
-  &.nav-open {
-    overflow: hidden;
-
-    nav,
-    header > form {
-      display: block;
-    }
-
-    header {
-      bottom: 0;
-    }
-  }
-
-  &::before {
-    content: "";
-    background-color: $content-background-color;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-  }
-
-  @media (min-width: $mobile-break) {
-    padding: 0 0 0 $nav-width;
-
-    &.nav-open {
-      overflow: auto;
-    }
-
-    &::after,
-    &::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      z-index: -1;
-    }
-
-    &::after {
-      left: 0;
-      width: $nav-width;
-      background-color: $nav-background-color;
-    }
-
-    #search-input,
-    &::after {
-      box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);
-    }
-
-    &::before {
-      left: $nav-width;
-      right: 0;
-      background-color: $content-background-color;
-    }
-  }
-}
-
-.main {
-  margin-top: $space + $nav-header-height;
-
-  @media (min-width: $mobile-break) {
-    margin-top: 0;
-  }
-}
-
-header {
-  $emblem-size: 35px;
-  $emblem-vertical-padding: ($nav-header-height - $emblem-size) / 2;
-  $emblem-horizontal-padding: $space;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  overflow-x: hidden;
-  z-index: 1;
-  background-color: $nav-background-color;
-
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-
-  .header-title {
-    padding: $emblem-vertical-padding $emblem-horizontal-padding;
-    height: $nav-header-height;
-    box-sizing: border-box;
-    background-color: $brand-colour;
-    color: #fff;
-    margin: 0;
-    font-size: 1.7rem;
-    line-height: 0.8;
-    letter-spacing: 0;
-    font-weight: 600;
-    text-indent: 0;
-    @include display-flex();
-    @include flex-direction(row);
-    @include align-items(center);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
-
-    img {
-      height: $emblem-size;
-      width: $emblem-size;
-      margin-right: $space - 5;
-    }
-  }
-
-  $nav-image: $baseurl + "/images/menu.svg";
-
-  .open-nav {
-    background-image: url($nav-image);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: $emblem-size;
-    height: $emblem-size;
-    border: 0;
-    position: absolute;
-    top: $emblem-vertical-padding;
-    right: $emblem-horizontal-padding;
-    border-radius: 2px;
-
-    &:focus {
-      outline: none;
-      background-color: rgba(0, 0, 0, 0.05);
-    }
-
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-  }
-
-  @media (min-width: $mobile-break) {
-    background-color: transparent;
-    width: $nav-width;
-    right: auto;
-    bottom: auto;
-
-    .open-nav {
-      display: none;
-    }
-
-    h1 {
-      box-shadow: inset -10px 0 10px -10px rgba(0, 0, 0, 0.1);
-    }
-  }
-}
-
-.content {
-  position: relative;
-  background-color: $content-background-color;
-  color: $content-color;
-
-  h1, h2, h3, .h1, .h2, .h3 {
-    margin-top: 2.5rem;
-  }
-}
-
-.content,
-.page-header {
-  max-width: $content-max-width;
-  padding: 0 ($space + 5) $space;
-  margin: $space auto 0 0;
-}
-
-.page-header {
-  h1, h2, .h1, .h2 {
-    margin: 0;
-    line-height: 1.2;
-    letter-spacing: -1px;
-  }
-
-  h1, .h1 {
-    font-size: 4rem;
-    margin-left: -4px;
-  }
-
-  h2, .h2 {
-    font-size: 2rem;
-    margin-left: -1px;
-    color: #888;
-    letter-spacing: 0;
-  }
-
-  @media (min-width: $mobile-break) {
-    h1, .h1 {
-      font-size: 5.1rem;
-    }
-    h2, .h2 {
-      font-size: 2.65rem;
-    }
-  }
-
-  @media (min-width: $full-width-break) {
-    margin-top: 55px;
-  }
-}
-
-nav,
-header > form {
-  display: none;
-
-  @media (min-width: $mobile-break) {
-    display: block;
-  }
-}
-
-nav > ul {
-  padding: $space / 2 0;
-
-  & + ul {
-    border-top: 1px solid rgba(0, 0, 0, 0.075);
-  }
-}
-
-.nav-item {
-  display: block;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1;
-  margin: 0;
-
-  nav:not(.full-navigation) & > ul {
-    display: none;
-  }
-
-  nav:not(.full-navigation) &.current > ul {
-    display: block;
-  }
-
-  > a {
-    color: #666;
-    text-decoration: none;
-    font-size: 1.4rem;
-    padding: $space / 2 0 $space / 2 $space * 2;
-    display: block;
-  }
-
-  &.current > a,
-  > a:active,
-  > a:hover {
-    color: #111;
-  }
-
-  &.top-level > a {
-    line-height: 1.5;
-    font-weight: 600;
-    padding-left: $space;
-  }
-}
-
-.settings-panel-example {
-  @extend p;
-  @include display-flex();
-  @include flex-direction(column);
-
-  .example {
-    max-width: 300px;
-    background-color: #fafafa;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    line-height: 1;
-    border-radius: 2px;
-    overflow: hidden;
-  }
-
-  @media (min-width: 960px) {
-    @include flex-direction(row);
-
-    .details {
-      @include flex(1);
-      margin-right: 20px;
-    }
-
-    p + .highlight > pre {
-      margin-bottom: 0;
-    }
-
-    .example {
-      @include flex(0 0 300px);
-      max-width: 100%;
-    }
-  }
-}
-
-.highlight {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-h3 + .warning {
-  margin-top: 1.75em;
-}
-
-
-h4 code {
-  background: $nav-background-color;
-  color: $content-color;
-  background-color: transparent;
-  font-weight: 700;
-  padding: 0;
-  font-size: 1.1em;
-  line-height: 1;
-}
-
-h4 svg {
-  vertical-align: middle;
-  margin-right: 6px;
-  position: relative;
-  top: -2px;
-  fill: #2E2E2E;
-  height: 23px;
-}
-
-.required {
-  position: relative;
-}
-
-.required::after {
-  content: "REQUIRED";
-  font-size: 12px;
-  position: absolute;
-  top: 5px;
-  line-height: 1;
-  color: $brand-colour;
-  padding-left: 5px;
-}
-
-#search-results {
-  margin: 0;
-  padding: 0;
-
-  li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    h4 {
-      font-size: 2rem;
-    }
-
-    p {
-      line-height: 1.5;
-    }
-  }
-}
-
-
-#search-input {
-  -webkit-appearance: none;
-  display: block;
-  margin: 0;
-  padding: 10px 20px 10px 15px;
-  width: 100%;
-  box-sizing: border-box;
-  border: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
-  border-left: 5px solid transparent;
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 1.8;
-
-  &:focus {
-    outline: none;
-    border-left-color: $brand-colour;
-  }
-}
-
-.changelog {
-  &,
-  > div {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .date {
-    color: #888;
-    font-style: italic;
-  }
-}
-
-.badge {
-  font-family: "Open Sans", sans-serif;
-  padding: 2px 5px;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  border-radius: 2px;
-  background: #eee;
-  font-weight: bold;
-
-  &.major {
-    background: $brand-colour;
-    color: #fff;
-  }
-}
-
-blockquote {
-  border-left: 5px solid #FD0;
-  padding: 10px 15px;
-  margin-left: -15px;
-  margin-right: -10px;
-  background-color: $brand-colour-light;
-  border-color: $brand-colour;
-
-  p:last-child {
-    margin-bottom: 0;
-  }
-
-  @media (max-width: $full-width-break) {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.editor-link {
-  display: none;
-  margin-top: 0;
-
-  .btn {
-    border: 0;
-    border-radius: 2px;
-    width: 100%;
-    max-width: 500px;
-    box-sizing: border-box;
-    font-size: 2rem;
-    text-decoration: none;
-    padding: 10px 15px;
-    margin: 0;
-    font-size: 18px;
-    cursor: pointer;
-    background-color: #f7e064;
-    color: #333;
-    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
-
-    &:hover {
-      background-color: #f4d525;
-      color: #333;
-    }
-  }
-
-}
-
-.cms-editor-active .editor-link {
-  display: block;
-}
+diff --git a / .github / ISSUE_TEMPLATE / thong-ngo-bitcoin-vn-btm.md b / .github /
+ISSUE_TEMPLATE / thong-ngo-bitcoin-vn-btm.md
+chế độ tệp mới 100644
+chỉ số 000000000..324b23dcb
+--- / dev / null
++++ b / .github / ISSUE_TEMPLATE / thong-ngo-bitcoin-vn-btm.md
+@@ -0,0 +1,20 @@
++ ---
++ name: THONG NGO
++ về: BitcoinVN
++ title: BITCOIN VN BTM
++ nhãn: THONG NGO
++ người được giao: QuangThong1
++
++ ---
++
++ ** Yêu cầu tính năng của bạn có liên quan đến sự cố không? Làm ơn miêu tả.**
++ Mô tả rõ ràng và ngắn gọn vấn đề là gì. Ví dụ. Tôi luôn bực bội khi […]
++
++ ** Mô tả giải pháp bạn muốn **
++ Mô tả rõ ràng và ngắn gọn về những gì bạn muốn xảy ra.
++
++ ** Mô tả các lựa chọn thay thế bạn đã xem xét **
++ Mô tả rõ ràng và ngắn gọn về bất kỳ giải pháp hoặc tính năng thay thế nào mà bạn đã xem
+xét.
++
++ ** Bối cảnh bổ sung **
++ Thêm bất kỳ bối cảnh hoặc ảnh chụp màn hình nào khác về yêu cầu tính năng tại đây.
+diff --git a / .github / ISSUE_TEMPLATE / thong-ngo-bitcoin-vn.md b / .github /
+ISSUE_TEMPLATE / thong-ngo-bitcoin-vn.md
+chế độ tệp mới 100644
+chỉ số 000000000..14d8a7d31
+--- / dev / null
++++ b / .github / ISSUE_TEMPLATE / thong-ngo-bitcoin-vn.md
+@@ -0,0 +1,20 @@
++ ---
++ name: THONG NGO
++ về: BitcoinVN
++ tiêu đề: BitcoinVN BTM
++ nhãn: THONG NGO
++ người được giao: QuangThong1
++
++ ---
++
++ ** Yêu cầu tính năng của bạn có liên quan đến sự cố không? Làm ơn miêu tả.**
++ Mô tả rõ ràng và ngắn gọn vấn đề là gì. Ví dụ. Tôi luôn bực bội khi […]
++
++ ** Mô tả giải pháp bạn muốn **
++ Mô tả rõ ràng và ngắn gọn về những gì bạn muốn xảy ra.
++
++ ** Mô tả các lựa chọn thay thế bạn đã xem xét **
++ Mô tả rõ ràng và ngắn gọn về bất kỳ giải pháp hoặc tính năng thay thế nào mà bạn đã xem
+xét.
++
++ ** Bối cảnh bổ sung **
++ Thêm bất kỳ bối cảnh hoặc ảnh chụp màn hình nào khác về yêu cầu tính năng tại đây.
+diff --git a / .github / THONG NGO b / .github / THONG NGO
+chế độ tệp mới 100644
+chỉ số 000000000..4b16f597e
+--- / dev / null
++++ b / .github / THONG NGO
+@@ -0,0 +1,12 @@
++ # Đây là các nền tảng mô hình tài trợ được hỗ trợ
++
++ github: # Thay thế bằng tối đa 4 tên người dùng được hỗ trợ bởi Nhà tài trợ GitHub, ví
+dụ: [user1, user2]
++ patreon: # Thay thế bằng một tên người dùng Patreon duy nhất
++ open_collective: # Thay thế bằng một tên người dùng Open Collective duy nhất
+
++ ko_fi: # Thay thế bằng một tên người dùng Ko-fi duy nhất
++ tidelift: # Thay thế bằng một tên nền tảng / gói-tên Tidelift duy nhất, ví dụ: npm /
+babel
++ community_bridge: # Thay thế bằng một tên dự án Community Bridge duy nhất, ví dụ: xưởng
+đúc đám mây
++ liberapay: # Thay thế bằng một tên người dùng Liberapay duy nhất
++ issuehunt: # Thay thế bằng một tên người dùng IssueHunt duy nhất
++ otechie: # Thay thế bằng một tên người dùng Otechie duy nhất
++ tùy chỉnh: # Thay thế bằng tối đa 4 URL tài trợ tùy chỉnh, ví dụ: ['link1', 'link2']
+diff --git a / .github / workflows / codeql-analysis.yml b / .github / workflows /
+codeql-analysis.yml
+chế độ tệp mới 100644
+chỉ số 000000000..2388144b9
+--- / dev / null
++++ b / .github / workflows / codeql-analysis.yml
+@@ -0,0 +1,71 @@
++ # Đối với hầu hết các dự án, tệp quy trình công việc này sẽ không cần thay đổi; bạn chỉ
+cần
++ # để cam kết nó vào kho lưu trữ của bạn.
++ #
++ # Bạn có thể muốn thay đổi tệp này để ghi đè nhóm ngôn ngữ được phân tích,
++ # hoặc để cung cấp các truy vấn tùy chỉnh hoặc xây dựng logic.
++ #
++ # ******** LƯU Ý ********
++ # Chúng tôi đã cố gắng phát hiện các ngôn ngữ trong kho lưu trữ của bạn. Hãy kiểm tra
++ # ma trận `ngôn ngữ` được xác định bên dưới để xác nhận bạn có tập hợp chính xác
++ # ngôn ngữ CodeQL được hỗ trợ.
++ #
++ tên: "CodeQL"
++
++ trên:
++ đẩy:
++ chi nhánh: [master]
++ pull_request:
++ # Các nhánh bên dưới phải là tập con của các nhánh bên trên
++ chi nhánh: [master]
++ lịch trình:
++ - cron: '22 18 * * 1'
++
++ việc làm:
++ phân tích:
++ name: Phân tích
++ chạy trên: ubuntu-mới nhất
++ quyền:
++ hành động: đọc
++ nội dung: đọc
++ an ninh-sự kiện: ghi
++
++ chiến lược:
++ fail-fast: sai
++ ma trận:
++ ngôn ngữ: ['javascript']
++ # CodeQL hỗ trợ ['cpp', 'csharp', 'go', 'java', 'javascript', 'python']
++ # Tìm hiểu thêm:
++ # https://docs.github.com/en/free-pro-team@latest/github/finding-security-
+vulnerabilities-and-errors-in-your-code/configuring-code-scanning#changed-the- ngôn ngữ-
+được-phân tích
++
++ bước:
++ - tên: Kho kiểm tra
++ sử dụng: hành động / checkout @ v2
++
++ # Khởi tạo các công cụ CodeQL để quét.
++ - name: Khởi tạo CodeQL
++ cách sử dụng: github / codeql-action / init @ v1
++ với:
++ ngôn ngữ: $ {{matrix.language}}
++ # Nếu bạn muốn chỉ định các truy vấn tùy chỉnh, bạn có thể thực hiện tại đây hoặc trong
+tệp cấu hình.
+
++ # Theo mặc định, các truy vấn được liệt kê ở đây sẽ ghi đè bất kỳ truy vấn nào được chỉ
+định trong tệp cấu hình.
++ # Bắt đầu danh sách ở đây bằng "+" để sử dụng các truy vấn này và các truy vấn trong
+tệp cấu hình.
++ # truy vấn: ./path/to/local/query, your-org / your-repo / queries @ main
++
++ # Autobuild cố gắng xây dựng bất kỳ ngôn ngữ đã biên dịch nào (C / C ++, C # hoặc
+Java).
++ # Nếu bước này không thành công, thì bạn nên xóa nó và chạy bản dựng theo cách thủ công
+(xem bên dưới)
++ - tên: Autobuild
++ sử dụng: github / codeql-action / autobuild @ v1
++
++ # ℹ️ Các chương trình dòng lệnh để chạy bằng hệ điều hành.
++ # 📚 https://git.io/JvXDl
++
++ # ✏️ Nếu Tự động tạo không thành công ở trên, hãy xóa nó và bỏ ghi chú ba dòng sau
++ # và sửa đổi chúng (hoặc thêm nhiều hơn) để tạo mã của bạn nếu dự án của bạn
++ # sử dụng ngôn ngữ đã biên dịch
++
++ # - chạy: |
++ # tạo bootstrap
++ # thực hiện phát hành
++
++ - tên: Thực hiện Phân tích CodeQL
++ cách sử dụng: github / codeql-action / analyse @ v1
+diff --git a / BitcoinVN BTM b / BitcoinVN BTM
+chế độ tệp mới 100644
+chỉ số 000000000..80cdc65c8
+--- / dev / null
++++ b / BitcoinVN BTM
+@@ -0,0 +1,39 @@
++ # THONG-NGO
++ Giao diện người dùng của bộ phận BTM BitcoinVN
++ ---
++ danh mục: Địa điểm, Sài Gòn
++ title: BTM1 - Italiani's Homemade Pizza
++ bố cục: btm
++ interface_lang:
++ - vi
++ - vi
++ tiền điện tử:
++ BTC: {"mua": true, "bán": true}
++ ETH: {"buy": true, "sell": true}
++ BCH: {"buy": true, "sell": true}
++ LTC: {"buy": true, "sell": true}
++ XMR: {"mua": true, "bán": true}
++ DAI: {"buy": true, "sell": true}
++ USDC: {"buy": true, "sell": true}
++ TUSD: {"buy": true, "sell": true}
++ XRP: {"mua": true, "bán": true}
++ TRON: {"buy": true, "sell": true}
++ ZXR: {"mua": true, "bán": true}
++ BAT: {"buy": true, "sell": true}
++ LIÊN KẾT: {"buy": true, "sell": true}
++ MANA: {"mua": true, "bán": true}
++ EDR: {"mua": true, "bán": true}
++ ENJ: {"buy": true, "sell": true}
++ FUN: {"buy": true, "sell": true}
++ GNT: {"buy": true, "sell": true}
++ LOOM: {"buy": true, "sell": true}
++ LUN: {"buy": true, "sell": true}
++ MTL: {"buy": true, "sell": true}
++ PAX: {"mua": true, "bán": true}
++ POLY: {"buy": true, "sell": true}
++ SNGLS: {"buy": true, "sell": true}
++ UKG: {"mua": true, "bán": true}
++ https: //www.google.rice/maps/embed?
++ pbpb = 1m18! 1m12! 1m3! 1d7839.236188042917! 2
+
++ 2d106.68304372609887! 3d10.763887969319972! 2m3!
++ 1f0! 2f0! 3f0! 3m2! 1i1024
+diff --git a / README.md b / README.md
+chế độ tệp đã xóa 100644
+chỉ số 737a93062..000000000
+--- a / README.md
++++ / dev / null
+@@ -1,61 +0,0 @@
+- # BitcoinVN BTM
+-
+- [! [Trạng thái xây dựng] (https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?
+branch=master)] (https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn. io)
+-
+-Thông tin sản phẩm và tài liệu cho [BitcoinVN] (https://bitcoinvn.io/en) BTM.
+-
+-## Đặc trưng
+-
+- * Bố cục hai cột
+- * Tìm kiếm toàn văn
+- * Các thành phần được tạo kiểu trước
+- * Điều hướng được tạo tự động dựa trên danh mục
+- * Được tối ưu hóa để chỉnh sửa trong [CloudCannon] (http://cloudcannon.com/)
+- * Thay đổi nhật ký
+- * Nguồn cấp dữ liệu RSS / Atom
+- * Thẻ SEO
+- * Google Analytics
+-
+-## Thiết lập
+-
+-1. Thêm thông tin chi tiết về trang web và tác giả của bạn trong `_config.yml`.
+-2. Nhận quy trình làm việc để xem kết quả trang web của bạn (với [CloudCannon]
+(https://app.cloudcannon.com/) hoặc Jekyll cục bộ).
+-
+-## Phát triển, xây dựng
+-
+-BitcoinVN BTM được xây dựng với [Jekyll] (http://jekyllrb.com/) phiên bản 3.3.1, nhưng
+cũng nên hỗ trợ các phiên bản mới hơn.
+-
+-Cài đặt các phần phụ thuộc với [Bundler] (http://bundler.io/):
+-
+- ~~~
+- Cài đặt gói $
+- ~~~
+-
+-Chạy các lệnh `jekyll` thông qua Bundler để đảm bảo bạn đang sử dụng đúng phiên bản:
+-
+- ~~~
+- $ gói thực thi jekyll phục vụ
+- ~~~
+-
+- ## Chỉnh sửa
+-
+-Edition đã được tối ưu hóa để thêm, cập nhật và xóa các trang tài liệu trong
+CloudCannon.
+-
+- ### Trang tài liệu
+-
+- * Thêm, cập nhật hoặc xóa trang tài liệu trong bộ sưu tập * Tài liệu *.
+- * Thay đổi danh mục của trang tài liệu để chuyển nó sang phần khác trong điều hướng.
+- * Các trang tài liệu được sắp xếp trong điều hướng theo danh mục, với các URL dựa trên
+đường dẫn bên trong thư mục `_docs`.
+-
+- ### Thay đổi nhật ký
+-
+- * Thêm, cập nhật hoặc xóa các mục nhật ký thay đổi khỏi bài viết của bạn.
+- * Gắn thẻ các mục là phụ hoặc chính trong vấn đề phía trước.
+-
+-### Tìm kiếm
+-
+* Thêm `remove_in_search: true` vào vấn đề chính của bất kỳ trang tài liệu nào để loại
+trừ trang đó trong kết quả tìm kiếm.
+-
+-### Dẫn đường
+-
+- * Thay đổi `site.show_full_navigation` để kiểm soát tất cả hoặc chỉ nhóm điều hướng
+hiện tại đang mở.
+diff --git a / THONG NGO b / THONG NGO
+chế độ tệp mới 100644
+chỉ số 000000000..5e711eb61
+--- / dev / null
++++ b / THONG NGO
+@@ -0,0 +1,145 @@
++ # THONG NGO
++
++ [! [Trạng thái xây dựng] (https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn.io.svg?
+branch=master)] (https://travis-ci.com/bitcoinvietnam/btm.bitcoinvn. io)
++
++ Thông tin sản phẩm và tài liệu cho [BitcoinVN] (https://bitcoinvn.io/en) BTM.
++
++ ## Tính năng
++
++ * Bố cục hai cột
++ * Tìm kiếm toàn văn
++ * Các thành phần được tạo kiểu sẵn
++ * Điều hướng được tạo tự động dựa trên danh mục
++ * Được tối ưu hóa để chỉnh sửa trong [CloudCannon] (http://cloudcannon.com/)
++ * Thay đổi nhật ký
++ * Nguồn cấp dữ liệu RSS / Atom
++ * Thẻ SEO
++ * Google Analytics
++
++ ## Thiết lập
++
++1. Thêm thông tin chi tiết về trang web và tác giả của bạn trong `_config.yml`.
++2. Nhận quy trình làm việc để xem kết quả trang web của bạn (với [CloudCannon]
+(https://app.cloudcannon.com/) hoặc Jekyll cục bộ).
++
++ ## Phát triển
++
++ BitcoinVN BTM được xây dựng với [Jekyll] (http://jekyllrb.com/) phiên bản 3.3.1, nhưng
+cũng sẽ hỗ trợ các phiên bản mới hơn.
++
++ Cài đặt các phần phụ thuộc với [Bundler] (http://bundler.io/):
++
++ ~~~ bash
++ $ gói cài đặt
++ ~~~
++
++ Chạy lệnh `jekyll` thông qua Bundler để đảm bảo bạn đang sử dụng đúng phiên bản:
++
++ ~~~ bash
++ $ gói thực thi jekyll phục vụ
++ ~~~
++
++ ## Chỉnh sửa
++
++ Phiên bản đã được tối ưu hóa để thêm, cập nhật và xóa các trang tài liệu trong
+CloudCannon.
++
++ ### Trang tài liệu
++
++ * Thêm, cập nhật hoặc xóa trang tài liệu trong bộ sưu tập * Tài liệu *.
++ * Thay đổi danh mục của trang tài liệu để chuyển nó sang phần khác trong điều hướng.
++ * Các trang tài liệu được sắp xếp trong điều hướng theo danh mục, với các URL dựa trên
+đường dẫn bên trong thư mục `_docs`.
++
++ ### Thay đổi nhật ký
++
++ * Thêm, cập nhật hoặc xóa các mục nhật ký thay đổi khỏi bài viết của bạn.
++ * Gắn thẻ các mục là phụ hoặc chính vào vấn đề phía trước.
++
++ ### Tìm kiếm
++
++ * Thêm `remove_in_search: true` vào vấn đề chính của bất kỳ trang tài liệu nào để loại
+trừ trang đó trong kết quả tìm kiếm.
++
++ ### Điều hướng
++
++ * Thay đổi `site.show_full_navigation` để kiểm soát tất cả hoặc chỉ nhóm điều hướng
+hiện tại đang mở.
++
++ THONG NGO
++ (img / ab.c-logo.png "sáng kiến Chấp nhận Bitcoin Cash")
++ ==================
++ Danh sách các trang web / người bán do cộng đồng quản lý chấp nhận [** Bitcoin Cash **]
++ (https://www.bitcoincash.org), _một hệ thống tiền điện tử ngang hàng_ phù hợp
++ cho thời đại kỹ thuật số và tương lai của thương mại trực tuyến.
++ Thêm một trang web không được liệt kê hoặc cung cấp bất kỳ cập nhật / chỉnh sửa nào
+bằng cách gửi
++ yêu cầu kéo hoặc [tạo sự cố]
++ (https://github.com/acceptbitcoincash/acceptbitcoincash/issues). Học cách làm
++ bằng cách đọc [nguyên tắc đóng góp của chúng tôi] (CONTRIBUTING.md).
++ [! [Trạng thái xây dựng] (https://travis-
+ci.org/acceptbitcoincash/acceptbitcoincash.svg?
++ branch = master)] (https://travis-ci.org/acceptbitcoincash/acceptbitcoincash)
++ [! [GitHub pull-request] (https://img.shields.io/github/issues-
++ pr / acceptbitcoincash / acceptbitcoincash.svg)]
++ (https://github.com/acceptbitcoincash/acceptbitcoincash/pulls/)
++ [! [Các sự cố GitHub đã đóng] (https://img.shields.io/github/issues-
++ đã đóng / acceptbitcoincash / acceptbitcoincash.svg)]
++ (https://github.com/acceptbitcoincash/acceptbitcoincash/issues?
++ q = là% 3Aissue + là% 3Aclosed)
++ [! [Twitter] (https://img.shields.io/badge/Twitter-@useBitcoinCash-blue.svg)]
++ (https://twitter.com/useBitcoinCash)
++ [! [Giấy phép] (https://img.shields.io/badge/license-mit-blue.svg?style=flat)]
++ (/ GIẤY PHÉP)
++ ## Mục tiêu
++ Mục tiêu là xây dựng một trang web ([https://acceptBitcoin.cash]
++ (https://acceptBitcoin.Cash)) với danh sách đầy đủ các trang web chấp nhận hoặc
++ hỗ trợ Bitcoin Cash, cũng như Bitcoin (Legacy).
++ Hy vọng của chúng tôi là kết nối người tiêu dùng và người bán, đồng thời truyền bá nhận
+thức và
++ thúc đẩy việc áp dụng [Bitcoin Cash] trên toàn cầu (https://www.bitcoincash.org).
++ Những người duy trì trang web không xác nhận hoặc xác nhận tính hợp pháp của bất kỳ
++ danh sách được liên kết đến trên trang web này. Đây là một dự án mã nguồn mở chấp nhận
++ đệ trình từ cộng đồng chung. Trong khi chúng tôi cố gắng hết sức để xác minh
++ thông tin đã gửi, có thể chúng tôi bỏ sót điều gì đó.
++ ## Đóng góp
++ Nếu bạn muốn đóng góp vào danh sách, vui lòng đọc toàn bộ hướng dẫn tại đây
++ trong
++ [CONTRIBUTING.md] (ĐÓNG GÓP.md).
++ ## Chạy cục bộ
++ acceptBitcoin.cash được xây dựng dựa trên [Jekyll] (https://jekyllrb.com/), sử dụng
++ [github-pages] (https://github.com/github/pages-gem) đá quý.
++ Để chạy cục bộ trang web, cần phải cài đặt Bundler, cài đặt tất cả
++ phụ thuộc và sau đó sử dụng Jekyll để phân phát
++ trang web. Nếu lệnh `gem` không có sẵn cho bạn, bạn cần phải
++ cài đặt Ruby với RubyGems.
++ Sau khi Ruby và RubyGems được cài đặt và có sẵn từ dòng lệnh,
++ acceptBitcoin.cash có thể được thiết lập bằng các lệnh sau.
++ `` '
++ gói cài đặt đá quý
++ cd ~ / acceptbitcoincash
++ gói cài đặt
++ gói thực thi jekyll phục vụ
++ `` '
++ Trang web acceptBitcoin.cash sau đó sẽ có thể truy cập được từ
++
++ `https: // bitcoincash.org`.
++ ## Docker
++ acceptBitcoin.cash cũng bao gồm hình ảnh Docker để dễ dàng triển khai. Bạn có thể
++ xây dựng và chạy hình ảnh Docker bằng các lệnh sau.
++ `` '
++ cd ~ / acceptbitcoincash
++ gói cài đặt đá quý
++ gói cài đặt
++ gói thực thi jekyll xây dựng
++ docker build -t acceptbitcoincash.
++ docker run -p4000: 80 acceptbitcoincash
++ `` '
++ Nếu bạn đang phát triển và muốn khởi chạy một máy chủ jekyll có thể theo dõi
++ những thay đổi của bạn. Sau đó, bạn có thể sử dụng các lệnh sau.
++ `` '
++ cd ~ / acceptbitcoincash
++ docker run --rm --label = jekyll --volume = $ (pwd): / srv / jekyll: z \
++ -it -p 127.0.0.1:4000:4000 jekyll / jekyll: jekyll s mới nhất
++ `` '
++ Trang web acceptBitcoin.cash sau đó sẽ có thể truy cập được từ
++ `https: // bitcoincash.org`.
++ ## Giấy phép
++ Mã này được phân phối theo giấy phép MIT. Để biết thêm thông tin, hãy đọc
++ Tệp [LICENSE] (/ LICENSE) được phân phối cùng với mã nguồn.
++ [# 478559] (https://blockchair.com/bitcoin-cash/block/478559 "Khối Exodus.")
++
++ Tên: THONG NGO
++ Email: quangthong1011@gmail.com
++ SĐT: +84915101105
