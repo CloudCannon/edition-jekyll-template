@@ -1,12 +1,64 @@
-# These are supported funding model platforms
-
-github: # Replace with up to 4 GitHub Sponsors-enabled usernames e.g., [user1, user2]
-patreon: # Replace with a single Patreon username
-open_collective: # Replace with a single Open Collective username
-ko_fi: # Replace with a single Ko-fi username
-tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
-community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
-liberapay: # Replace with a single Liberapay username
-issuehunt: # Replace with a single IssueHunt username
-otechie: # Replace with a single Otechie username
-custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
+name: THONG NGO
+-bộ phận: BITCOIN VN BTM
+-tiêu đề: ''
++ name: THONG NGO
++ về: THONG NGO BitcoinVN
++ title: BITCOIN VN BTM
+ nhãn: THONG NGO
+ người nhận nhiệm vụ: QuangThong1
+Từ 186c8d72bce8adfdfc7539681dbc3ac7c9f4379d Thứ Hai 17 tháng 9 00:00:00 2001
+Người gửi: NGÔ QUANG THÔNG <38796360+QuangThong1@users.noreply.github.com>
+Ngày: Thứ Hai, ngày 12 tháng 7 năm 2021 18:26:11 +0700
+Chủ đề: [PATCH 07/11] THONG NGO
+BitcoinVN BTM
+---
+ BitcoinVN BTM | 39 +++++++++++++++++++++++++++++++++++++++++
+ 1 tệp đã thay đổi, 39 lần chèn (+)
+ tạo chế độ 100644 BitcoinVN BTM
+diff --git a / BitcoinVN BTM b / BitcoinVN BTM
+chế độ tệp mới 100644
+chỉ số 000000000..80cdc65c8
+--- / dev / null
++++ b / BitcoinVN BTM
+@@ -0,0 +1,39 @@
++ # THONG-NGO
++ Giao diện người dùng của bộ phận BTM BitcoinVN
++ ---
++ danh mục: Địa điểm, Sài Gòn
++ title: BTM1 - Italiani's Homemade Pizza
++ bố cục: btm
++ interface_lang:
++ - vi
++ - vi
++ tiền điện tử:
++ BTC: {"mua": true, "bán": true}
++ ETH: {"buy": true, "sell": true}
++ BCH: {"buy": true, "sell": true}
++ LTC: {"buy": true, "sell": true}
++ XMR: {"buy": true, "sell": true}
++ DAI: {"buy": true, "sell": true}
++ USDC: {"buy": true, "sell": true}
++ TUSD: {"buy": true, "sell": true}
++ XRP: {"mua": true, "bán": true}
++ TRON: {"buy": true, "sell": true}
++ ZXR: {"mua": true, "bán": true}
++ BAT: {"buy": true, "sell": true}
++ LIÊN KẾT: {"buy": true, "sell": true}
++ MANA: {"mua": true, "bán": true}
++ EDR: {"mua": true, "bán": true}
++ ENJ: {"buy": true, "sell": true}
++ FUN: {"buy": true, "sell": true}
++ GNT: {"buy": true, "sell": true}
++ LOOM: {"buy": true, "sell": true}
++ LUN: {"buy": true, "sell": true}
++ MTL: {"buy": true, "sell": true}
++ PAX: {"mua": true, "bán": true}
++ POLY: {"buy": true, "sell": true}
++ SNGLS: {"buy": true, "sell": true}
++ UKG: {"mua": true, "bán": true}
++ https: //www.google.rice/maps/embed?
++ pbpb = 1m18! 1m12! 1m3! 1d7839.236188042917! 2
++ 2d106.68304372609887! 3d10.763887969319972! 2m3!
++ 1f0! 2f0! 3f0! 3m2! 1i1024
+Từ 6861c65af41eabd44f4855adce294f3c1022f957 Thứ Hai 17 tháng 9 00:00:00 2001
+From: THONG NGO <38796360+QuangThong1@users.noreply.github.com>
