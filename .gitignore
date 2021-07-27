@@ -1,4 +1,162 @@
-_site/
-.idea
-.sass-cache/
-.jekyll-metadata
+
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<osm version="0.6" generator="CGImap 0.8.3 (766743 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<node id="7927149446" visible="true" version="1" changeset="91201904" timestamp="2020-09-21T05:54:18Z" user="BitcoinVN" uid="11850983" lat="10.7787560" lon="106.6980908">
+<tag k="amenity" v="atm"/>
+<tag k="brand" v="BitcoinVN"/>
+<tag k="cash_in" v="yes"/>
+<tag k="currency:BTC" v="yes"/>
+<tag k="currency:ERC20" v="yes"/>
+<tag k="currency:ETH" v="yes"/>
+<tag k="currency:VND" v="yes"/>
+<tag k="currency:XMR" v="yes"/>
+<tag k="description" v="Bitcoin ATM located inside Italiani's Pizza Han Thuen. No KYC for any transaction size. You can buy and sell Bitcoin and 20+ other cryptocurrencies for cash."/>
+<tag k="opening_hours" v="Italiani's Pizza Han Thuen opening hours"/>
+<tag k="operator" v="BitcoinVN"/>
+</node>
+<node id="7927149446" visible="true" version="2" changeset="91202403" timestamp="2020-09-21T06:02:11Z" user="BitcoinVN" uid="11850983" lat="10.7788161" lon="106.6981899">
+<tag k="addr:city" v="Ho Chi Minh"/>
+<tag k="addr:country" v="Vietnam"/>
+<tag k="addr:housenumber" v="17"/>
+<tag k="addr:street" v="Han Thuen"/>
+<tag k="amenity" v="atm"/>
+<tag k="brand" v="BitcoinVN"/>
+<tag k="cash_in" v="yes"/>
+<tag k="contact:email" v="btm@bitcoinvn.io"/>
+<tag k="contact:phone" v="+84983458907"/>
+<tag k="contact:website" v="https://btm.bitcoinvn.io/"/>
+<tag k="currency:BTC" v="yes"/>
+<tag k="currency:ERC20" v="yes"/>
+<tag k="currency:ETH" v="yes"/>
+<tag k="currency:VND" v="yes"/>
+<tag k="currency:XMR" v="yes"/>
+<tag k="description" v="Bitcoin ATM located inside Italiani's Pizza Han Thuen. No KYC for any transaction size. You can buy and sell Bitcoin and 20+ other cryptocurrencies for cash."/>
+<tag k="network" v="Bitcoin"/>
+<tag k="opening_hours" v="Italiani's Pizza Han Thuen opening hours"/>
+<tag k="operator" v="BitcoinVN"/>
+</node>
+<node id="7927149446" visible="true" version="3" changeset="91203508" timestamp="2020-09-21T06:18:22Z" user="BitcoinVN" uid="11850983" lat="10.7788161" lon="106.6981899">
+<tag k="addr:city" v="Thành phố Hồ Chí Minh"/>
+<tag k="addr:country" v="Vietnam"/>
+<tag k="addr:district" v="Quận 1"/>
+<tag k="addr:housenumber" v="17"/>
+<tag k="addr:postcode" v="700000"/>
+<tag k="addr:street" v="Han Thuen"/>
+<tag k="addr:subdistrict" v="Bến Nghé"/>
+<tag k="brand" v="BitcoinVN"/>
+<tag k="cash_in" v="yes"/>
+<tag k="contact:email" v="btm@bitcoinvn.io"/>
+<tag k="contact:phone" v="+84983458907"/>
+<tag k="contact:website" v="https://btm.bitcoinvn.io/"/>
+<tag k="currency:BTC" v="yes"/>
+<tag k="currency:ERC20" v="yes"/>
+<tag k="currency:ETH" v="yes"/>
+<tag k="currency:VND" v="yes"/>
+<tag k="currency:XMR" v="yes"/>
+<tag k="description" v="Bitcoin ATM located inside Italiani's Pizza Han Thuen. No KYC for any transaction size. You can buy and sell Bitcoin and 20+ other cryptocurrencies for cash."/>
+<tag k="name" v="Bitcoin ATM"/>
+<tag k="network" v="Bitcoin"/>
+<tag k="opening_hours" v="Italiani's Pizza Han Thuen opening hours"/>
+<tag k="operator" v="BitcoinVN"/>
+</node>
+<node id="7927149446" visible="true" version="4" changeset="91203730" timestamp="2020-09-21T06:21:26Z" user="BitcoinVN" uid="11850983" lat="10.7788161" lon="106.6981899">
+<tag k="addr:city" v="Thành phố Hồ Chí Minh"/>
+<tag k="addr:country" v="Vietnam"/>
+<tag k="addr:district" v="Quận 1"/>
+<tag k="addr:housenumber" v="17"/>
+<tag k="addr:postcode" v="700000"/>
+<tag k="addr:street" v="Han Thuen"/>
+<tag k="addr:subdistrict" v="Bến Nghé"/>
+<tag k="amenity" v="payment_terminal"/>
+<tag k="brand" v="BitcoinVN"/>
+<tag k="cash_in" v="yes"/>
+<tag k="contact:email" v="btm@bitcoinvn.io"/>
+<tag k="contact:phone" v="+84983458907"/>
+<tag k="contact:website" v="https://btm.bitcoinvn.io/"/>
+<tag k="currency:BTC" v="yes"/>
+<tag k="currency:ERC20" v="yes"/>
+<tag k="currency:ETH" v="yes"/>
+<tag k="currency:VND" v="yes"/>
+<tag k="currency:XMR" v="yes"/>
+<tag k="description" v="Bitcoin ATM located inside Italiani's Pizza Han Thuen. No KYC for any transaction size. You can buy and sell Bitcoin and 20+ other cryptocurrencies for cash."/>
+<tag k="name" v="Bitcoin ATM"/>
+<tag k="network" v="Bitcoin"/>
+<tag k="opening_hours" v="Italiani's Pizza Han Thuen opening hours"/>
+<tag k="operator" v="BitcoinVN"/>
+</node>
+<node id="7927149446" visible="true" version="5" changeset="91203872" timestamp="2020-09-21T06:23:34Z" user="BitcoinVN" uid="11850983" lat="10.7788161" lon="106.6981899">
+<tag k="addr:city" v="Thành phố Hồ Chí Minh"/>
+<tag k="addr:country" v="Vietnam"/>
+<tag k="addr:district" v="Quận 1"/>
+<tag k="addr:housenumber" v="17"/>
+<tag k="addr:postcode" v="700000"/>
+<tag k="addr:street" v="Han Thuen"/>
+<tag k="addr:subdistrict" v="Bến Nghé"/>
+<tag k="amenity" v="atm"/>
+<tag k="brand" v="BitcoinVN"/>
+<tag k="cash_in" v="yes"/>
+<tag k="contact:email" v="btm@bitcoinvn.io"/>
+<tag k="contact:phone" v="+84983458907"/>
+<tag k="contact:website" v="https://btm.bitcoinvn.io/"/>
+<tag k="currency:BTC" v="yes"/>
+<tag k="currency:ERC20" v="yes"/>
+<tag k="currency:ETH" v="yes"/>
+<tag k="currency:VND" v="yes"/>
+<tag k="currency:XMR" v="yes"/>
+<tag k="description" v="Bitcoin ATM located inside Italiani's Pizza Han Thuen. No KYC for any transaction size. You can buy and sell Bitcoin and 20+ other cryptocurrencies for cash."/>
+<tag k="name" v="Bitcoin ATM"/>
+<tag k="network" v="Bitcoin"/>
+<tag k="opening_hours" v="Italiani's Pizza Han Thuen opening hours"/>
+<tag k="operator" v="BitcoinVN"/>
+</node>
+<node id="7927149446" visible="true" version="6" changeset="91264955" timestamp="2020-09-22T05:59:27Z" user="bingo" uid="35814" lat="10.7788161" lon="106.6981899">
+<tag k="addr:city" v="Thành phố Hồ Chí Minh"/>
+<tag k="addr:country" v="VN"/>
+<tag k="addr:district" v="Quận 1"/>
+<tag k="addr:housenumber" v="17"/>
+<tag k="addr:postcode" v="700000"/>
+<tag k="addr:street" v="Han Thuen"/>
+<tag k="addr:subdistrict" v="Bến Nghé"/>
+<tag k="amenity" v="atm"/>
+<tag k="brand" v="BitcoinVN"/>
+<tag k="cash_in" v="yes"/>
+<tag k="contact:email" v="btm@bitcoinvn.io"/>
+<tag k="contact:phone" v="+84983458907"/>
+<tag k="contact:website" v="https://btm.bitcoinvn.io/"/>
+<tag k="currency:BTC" v="yes"/>
+<tag k="currency:ERC20" v="yes"/>
+<tag k="currency:ETH" v="yes"/>
+<tag k="currency:VND" v="yes"/>
+<tag k="currency:XMR" v="yes"/>
+<tag k="description" v="Bitcoin ATM located inside Italiani's Pizza Han Thuen. No KYC for any transaction size. You can buy and sell Bitcoin and 20+ other cryptocurrencies for cash."/>
+<tag k="name" v="Bitcoin ATM"/>
+<tag k="network" v="Bitcoin"/>
+<tag k="opening_hours" v="Italiani's Pizza Han Thuen opening hours"/>
+<tag k="operator" v="BitcoinVN"/>
+</node>
+<node id="7927149446" visible="true" version="7" changeset="102821983" timestamp="2021-04-12T18:28:02Z" user="Simon-v" uid="6802608" lat="10.7788161" lon="106.6981899">
+<tag k="addr:city" v="Thành phố Hồ Chí Minh"/>
+<tag k="addr:country" v="VN"/>
+<tag k="addr:district" v="Quận 1"/>
+<tag k="addr:housenumber" v="17"/>
+<tag k="addr:postcode" v="700000"/>
+<tag k="addr:street" v="Han Thuen"/>
+<tag k="addr:subdistrict" v="Bến Nghé"/>
+<tag k="amenity" v="atm"/>
+<tag k="brand" v="BitcoinVN"/>
+<tag k="cash_in" v="yes"/>
+<tag k="contact:email" v="btm@bitcoinvn.io"/>
+<tag k="contact:phone" v="+84983458907"/>
+<tag k="contact:website" v="https://btm.bitcoinvn.io/"/>
+<tag k="currency:ERC20" v="yes"/>
+<tag k="currency:ETH" v="yes"/>
+<tag k="currency:VND" v="yes"/>
+<tag k="currency:XBT" v="yes"/>
+<tag k="currency:XMR" v="yes"/>
+<tag k="description" v="Bitcoin ATM located inside Italiani's Pizza Han Thuen. No KYC for any transaction size. You can buy and sell Bitcoin and 20+ other cryptocurrencies for cash."/>
+<tag k="name" v="Bitcoin ATM"/>
+<tag k="network" v="Bitcoin"/>
+<tag k="opening_hours" v="Italiani's Pizza Han Thuen opening hours"/>
+<tag k="operator" v="BitcoinVN"/>
+</node>
+</osm> 
