@@ -4,7 +4,7 @@ Date: Mon, 28 Jun 2021 13:02:01 +0700
 Subject: [PATCH 1/2] BitcoinVN BTM
 
 BitcoinVN
-BitcoinVN BTM
+THONG NGO BitcoinVN
 ---
  README.md => THONG NGO | 9 +++++----
  1 file changed, 5 insertions(+), 4 deletions(-)
@@ -49,17 +49,17 @@ From: THONG NGO <quangthong2405@gmail.com>
 Date: Wed, 21 Jul 2021 08:32:53 +0700
 Subject: [PATCH 2/2] THONG NGO
 
-BitcoinVN.io
+THONG NGO BitcoinVN
 ---
- .../workflows/THONG NGO.codacy-analysis.yml   | 49 +++++++++++++++++++
+ .../workflows/THONG-NGO.codacy-analysis.yml   | 49 +++++++++++++++++++
  1 file changed, 49 insertions(+)
- create mode 100644 .github/workflows/THONG NGO.codacy-analysis.yml
+ create mode 100644 .github/workflows/thongngo.codacy-analysis.yml
 
-diff --git a/.github/workflows/THONG NGO.codacy-analysis.yml b/.github/workflows/THONG NGO.codacy-analysis.yml
+diff --git a/.github/workflows/thongngo.codacy-analysis.yml b/.github/workflows/THONG NGO.codacy-analysis.yml
 new file mode 100644
 index 000000000..af4f14f33
 --- /dev/null
-+++ b/.github/workflows/THONG NGO.codacy-analysis.yml	
++++ b/.github/workflows/THONGNGO.codacy-analysis.yml	
 @@ -0,0 +1,49 @@
 +# This workflow checks out code, performs a Codacy security scan
 +# and integrates the results with the
@@ -69,14 +69,14 @@ index 000000000..af4f14f33
 +# For more information on Codacy Analysis CLI in general, see
 +# https://github.com/codacy/codacy-analysis-cli.
 +
-+name: Codacy Security Scan
++name: THONG NGO BitcoinVN  
 +
-+on:
-+  push:
-+    branches: [ master ]
-+  pull_request:
++on: BitcoinVN 
++  push: THONG NGO BitcoinVN
++    branches: [ BitcoinVN ]
++  pull_request: bitcoinvn.io
 +    # The branches below must be a subset of the branches above
-+    branches: [ master ]
++    branches: [ BitcoinVN ]
 +  schedule:
 +    - cron: '37 8 * * 2'
 +
