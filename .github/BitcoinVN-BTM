@@ -1,25 +1,25 @@
-name: THONG NGO
--bộ phận: BitcoinVN
--tiêu đề: 'BitcoinVN BTM'
-+ name: THONG NGO
+name: THONG-NGO_Bitcoin-VN
+-bộ phận: BitcoinVN-BTM
+-tiêu đề: 'THONG-NGO_BitcoinVN'
++ name: BitcoinVN-BTM 
 + về: BitcoinVN
-+ title: BitcoinVN BTM
- nhãn: THONG NGO
- người nhận nhiệm vụ: QuangThong1
++ title: THONG-NGO_BitcoinVN
+ nhãn: BitcoinVN-BTM
+ người nhận nhiệm vụ: THONG-NGO
 Từ 186c8d72bce8adfdfc7539681dbc3ac7c9f4379d Thứ Hai 17 tháng 9 00:00:00 2001
 Người gửi: NGÔ QUANG THÔNG <38796360+QuangThong1@users.noreply.github.com>
 Ngày: Thứ Hai, ngày 12 tháng 7 năm 2021 18:26:11 +0700
-Chủ đề: [PATCH 07/11] THONG NGO
-BitcoinVN BTM
+Chủ đề: [PATCH 07/11] THONG-NGO
+BitcoinVN-BTM
 ---
- BitcoinVN BTM | 39 +++++++++++++++++++++++++++++++++++++++++
+ BitcoinVN-BTM | 39 +++++++++++++++++++++++++++++++++++++++++
  1 tệp đã thay đổi, 39 lần chèn (+)
  tạo chế độ 100644 BitcoinVN BTM
 diff --git a / BitcoinVN BTM b / BitcoinVN BTM
 chế độ tệp mới 100644
 chỉ số 000000000..80cdc65c8
 --- / dev / null
-+++ b / BitcoinVN BTM
++++ b / BitcoinVN-BTM
 @@ -0,0 +1,39 @@
 + # THONG-NGO
 + Giao diện người dùng của bộ phận BTM BitcoinVN
