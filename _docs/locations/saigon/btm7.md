@@ -1,6 +1,6 @@
 ---
 category: Locations, Saigon
-title: BTM6 - Capone's Chicago Pizza, D2
+title: BTM7 - Capone's Chicago Pizza, D2
 layout: btm
 interface_lang:
     - en
