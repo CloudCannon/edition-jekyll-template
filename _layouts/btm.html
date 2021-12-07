@@ -18,7 +18,7 @@ layout: default
 {% if page.openings.size > 0 %}
     <h2>Opening hours</h2>
     <table>
-        {% assign firstDay = page.openings | first %}
+        {% assign firstDay = page.openings.first.first %}
         {% if firstDay != "Every day" %}
         Every day
             <thead>
