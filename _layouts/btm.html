@@ -15,6 +15,35 @@ layout: default
     </iframe>
 {% endif %}
 
+{% if page.openings.size > 0 %}
+    <h2>Opening hours</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for dayconfig in page.openings %}
+            {% assign day = first %}
+                <tr>
+                    <td>
+                        <strong>{{ dayconfig.day }}</strong>
+                    </td>
+                    <td>
+                        {% if page.openings[day].time %}
+                            {{ page.openings[day].time }}
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
+
 {% if page.cryptos.size > 0 %}
     <h2>Cryptocurrencies</h2>
     <table>
