@@ -38,13 +38,6 @@
     </ul>
 
     <ul>
-        <li class="nav-item top-level {% if page.url == '/updates' %}current{% endif %}">
-            {% assign updates = site.html_pages | where: 'url', '/updates' | first %}
-            <a href="{{ site.baseurl }}/updates">{{ updates.title }}</a>
-        </li>
-    </ul>
-
-    <ul>
         <li class="nav-item top-level">
             <a href="javascript:">Get in touch</a>
             <ul>
