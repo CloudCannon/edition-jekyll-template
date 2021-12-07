@@ -7,12 +7,6 @@ interface_lang:
 cryptos:
     BTC: {"buy": true, "sell": false}
 openings:
-    Monday: {"time": "11 AM - 2 PM, 5 PM - 10 PM"}
-    Tuesday: {"time": "11 AM - 2 PM, 5 PM - 10 PM"}
-    Wednesday: {"time": "11 AM - 2 PM, 5 PM - 10 PM"}
-    Thursday: {"time": "11 AM - 2 PM, 5 PM - 10 PM"}
-    Friday: {"time": "11 AM - 2 PM, 5 PM - 10 PM"}
-    Saturday: {"time": "11 AM - 2 PM, 5 PM - 10 PM"}
-    Sunday: {"time": "11 AM - 2 PM, 5 PM - 10 PM"}
+    Every day: {"time": "11 AM - 2 PM, 5 PM - 10 PM"}
 google_maps_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.027701627539!2d106.70583911505611!3d10.732346792351454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f9a52b0f203%3A0xcd8f540550665779!2sBitcoin%20ATM%20by%20BitcoinVN!5e0!3m2!1sen!2s!4v1619429829836!5m2!1sen!2s
 ---
