@@ -26,17 +26,13 @@ layout: default
         </thead>
         <tbody>
         {% for dayconfig in page.openings %}
-            {% assign day = first %}
+            {% assign day = dayconfig | first %}
                 <tr>
                     <td>
-                        <strong>{{ dayconfig.day }}</strong>
+                        <strong>{{ day }}</strong>
                     </td>
                     <td>
-                        {% if page.openings[day].time %}
-                            {{ page.openings[day].time }}
-                        {% else %}
-                            -
-                        {% endif %}
+                        {{ page.openings[day].time }}
                     </td>
                 </tr>
         {% endfor %}
