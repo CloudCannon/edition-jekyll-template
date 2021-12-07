@@ -18,12 +18,16 @@ layout: default
 {% if page.openings.size > 0 %}
     <h2>Opening hours</h2>
     <table>
-        <thead>
-        <tr>
-            <th>Day</th>
-            <th>Time</th>
-        </tr>
-        </thead>
+        {% assign firstDay = page.openings | first %}
+        {% if firstDay != "Every day" %}
+        Every day
+            <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            </thead>
+        {% endif %}
         <tbody>
         {% for dayconfig in page.openings %}
             {% assign day = dayconfig | first %}
