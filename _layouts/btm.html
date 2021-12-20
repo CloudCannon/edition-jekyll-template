@@ -2,46 +2,49 @@
 layout: default
 ---
 
+
+<h2>Location</h2>
 {% if page.google_maps_url %}
-    <h2>Location</h2>
-    <iframe
-            src="{{ page.google_maps_url }}"
-            width="100%"
-            height="320"
-            frameborder="0"
-            style="border:0;"
-            allowfullscreen=""
+<iframe
+    src="{{ page.google_maps_url }}"
+    width="100%"
+    height="320"
+    frameborder="0"
+    style="border:0;"
+    allowfullscreen=""
     >
-    </iframe>
 {% endif %}
+</iframe>
+
 
 {% if page.openings.size > 0 %}
-    <h2>Opening hours</h2>
-    <table>
-        {% assign firstDay = page.openings.first.first %}
-        {% if firstDay != "Every day" %}
-            <thead>
-            <tr>
-                <th>Day</th>
-                <th>Time</th>
-            </tr>
-            </thead>
-        {% endif %}
-        <tbody>
-        {% for dayconfig in page.openings %}
-            {% assign day = dayconfig | first %}
-                <tr>
-                    <td>
-                        <strong>{{ day }}</strong>
-                    </td>
-                    <td>
-                        {{ page.openings[day].time }}
-                    </td>
-                </tr>
-        {% endfor %}
-        </tbody>
-    </table>
+<h2>Opening hours</h2>
+<table>
+    {% assign firstDay = page.openings.first.first %}
+    {% if firstDay != "Every day" %}
+    <thead>
+    <tr>
+        <th>Day</th>
+        <th>Time</th>
+    </tr>
+    </thead>
+    {% endif %}
+    <tbody>
+    {% for dayconfig in page.openings %}
+    {% assign day = dayconfig | first %}
+    <tr>
+        <td>
+            <strong>{{ day }}</strong>
+        </td>
+        <td>
+            {{ page.openings[day].time }}
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
 {% endif %}
+
 
 {% if page.cryptos.size > 0 %}
     <h2>Cryptocurrencies</h2>
@@ -94,4 +97,7 @@ layout: default
     </ul>
 {% endif %}
 
-{{ content }}
+<h2>About the location</h2>
+<article class="content">
+    {{ content }}
+</article>
