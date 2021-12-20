@@ -2,3 +2,6 @@ _site/
 .idea
 .sass-cache/
 .jekyll-metadata
+/vendor/bundle/ruby/3.0.0/
+/vendor/bundle/ruby/2.7.0/
+/.bundle/
