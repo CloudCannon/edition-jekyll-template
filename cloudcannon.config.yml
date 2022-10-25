@@ -1,0 +1,24 @@
+collections_config:
+  posts:
+    schemas:
+      default:
+        path: _schemas/post.md
+  docs:
+    schemas:
+      default:
+        path: _schemas/docs.md
+
+_inputs:
+  type:
+    type: select
+    options:
+      values:
+        - minor
+        - major
+  category:
+    type: select
+    options:
+      values:
+        - Contact Syncing
+        - Devices
+        - Media

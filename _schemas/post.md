@@ -1,6 +1,6 @@
 ---
 title:
-type: major
+type:
 ---
 
 This release introduces
