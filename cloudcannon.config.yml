@@ -1,0 +1,9 @@
+collections_config:
+  posts:
+    schemas:
+      default:
+        path: schemas/post.md
+  docs:
+    schemas:
+      default:
+        path: schemas/docs.md
