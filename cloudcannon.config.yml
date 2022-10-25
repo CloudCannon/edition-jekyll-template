@@ -10,9 +10,15 @@ collections_config:
 
 _inputs:
   types:
-    - minor
-    - major
+    type: select
+    options:
+      values:
+        - minor
+        - major
   category:
-    - contact-syncing
-    - devices
-    - media
+    type: select
+    options:
+      values:
+        - Contact Syncing
+        - Devices
+        - Media
