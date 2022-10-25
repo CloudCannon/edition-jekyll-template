@@ -9,7 +9,7 @@ collections_config:
         path: _schemas/docs.md
 
 _inputs:
-  types:
+  type:
     type: select
     options:
       values:
