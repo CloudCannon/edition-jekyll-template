@@ -2,8 +2,17 @@ collections_config:
   posts:
     schemas:
       default:
-        path: schemas/post.md
+        path: _schemas/post.md
   docs:
     schemas:
       default:
-        path: schemas/docs.md
+        path: _schemas/docs.md
+
+_inputs:
+  types:
+    - minor
+    - major
+  category:
+    - contact-syncing
+    - devices
+    - media
