@@ -18,3 +18,16 @@ google_maps_url: https://www.google.com/maps/place/El+Gaucho+%7C+Xuan+Thuy/@10.8
 
 Steakhouse Bitcoin - 
 
+Bitcoin and Steak. What more could you ask for? 
+
+BitcoinVN and El Gaucho have partnered up to bring you a unique and convenient way to buy and sell non-KYC bitcoin with Vietnamese dong. 
+
+El Gaucho has a THE reputation for steak. Operating internationally in Thailand, the Philippines, Slovakia, Czech Republic, Latvia and 21 locations here in Vietnam. 
+
+Relish what El Gaucho has to offer- signature design elements, extensive menus, stellar service and of course Premium Steak cuts.
+
+Our Thao Dien location is in the midst of coffee shops, modern co-working spaces, attractive architecture buildings and fashion boutiques to explore. This safe, pedestrian-friendly neighbourhood has a community feel that is a perfect and private place to conduct your bitcoin transactions. 
+
+We are thrilled to partner with an El Gaucho Argentinian steakhouse to offer you an exceptional experience while conducting your bitcoin transactions. 
+
+Eat real food. Get real money. 
