@@ -9,7 +9,7 @@ cryptos:
     BTC: {"buy": true, "sell": true}
 openings:
     Every day: {"time": "11 AM - 11 PM"}
-google_maps_url: https://www.google.com/maps/place/El+Gaucho+%7C+Xuan+Thuy/@10.8038257,106.7322716,17z/data=!3m1!4b1!4m6!3m5!1s0x3175271750703d3b:0x2849e7219a031616!8m2!3d10.8038204!4d106.7344549!16s%2Fg%2F11qqkllv6r
+google_maps_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0978100336943!2d106.73445489999999!3d10.8038204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175271750703d3b%3A0x2849e7219a031616!2sEl%20Gaucho%20%7C%20Xuan%20Thuy!5e0!3m2!1sen!2suk!4v1678538567823!5m2!1sen!2suk
 ---
 
 * Address: 77 Xuân Thủy, Thảo Điền, Thủ Đức, Thành phố Hồ Chí Minh 700000
