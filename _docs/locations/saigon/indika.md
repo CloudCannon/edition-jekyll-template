@@ -17,7 +17,21 @@ google_maps_url: https://www.google.com/maps/place/Indika+Saigon+(House+of+Curio
 * Style: Woodfire pizza, pasta, burgers, organik kitchen and drunk tacos. Serving meat, vegan, and gluten free options. 
 * Website: [Indika Saigon House of Curiosity](https://www.facebook.com/IndikaSaigon/)
 
-Indika: House of Curiosity A hidden gem within the hustle and bustle of Saigon. Indika is a unique place for drinks, music, food and good vibes since 2016. A secret garden and artistic interior painted and decorated with treasures and gems collected by the owners who made this place so special - A hub for Saigon’s artistic community with weekly open mics, musical jams, Indika showcases some great original live music, comedy, and poetry in the city. On the weekend, DJs fill the space with Reggae, Hip Hop, Disco, Funk, Soul, Tropical and more, including special Vinyl Selectors At the bar you can get awesome looking and tasting signature and classic cocktails, mixed, shaken and stirred by passionate bartenders. On top of a great selection of wines, craft beers & ciders, spirits and Indika’s Special Home Made Rum Punch On the menu, there’s a wide selection of food as there are currently 3 restaurants - Indika Kitchen, Organik Kitchen and Drunk Tacos. Serving meat, vegan, gluten free.
+Indika: House of Curiosity A hidden gem within the hustle and bustle of Saigon. Indika is a unique place for drinks, music, food and good vibes since 2016. 
 
-![](/images/indika/burger.png)
+![](/images/indika/Indika_tombraider.png)
+
+A secret garden and artistic interior painted and decorated with treasures and gems collected by the owners who made this place so special - A hub for Saigon’s artistic community with weekly open mics, musical jams, Indika showcases some great original live music, comedy, and poetry in the city. 
+
+![](/images/indika/IMG_7158.png)
+
+On the weekend, DJs fill the space with Reggae, Hip Hop, Disco, Funk, Soul, Tropical and more, including special Vinyl Selectors At the bar you can get awesome looking and tasting signature and classic cocktails, mixed, shaken and stirred by passionate bartenders. 
+
+![](/images/indika/Indika_bar.png)
+
+On top of a great selection of wines, craft beers & ciders, spirits and Indika’s Special Home Made Rum Punch On the menu, there’s a wide selection of food as there are currently 3 restaurants - Indika Kitchen, Organik Kitchen and Drunk Tacos. Serving meat, vegan, gluten free.
+
+![](/images/indika/Indika_pizza.jpeg)
+
+![](/images/indika/platter.jpeg)
 
