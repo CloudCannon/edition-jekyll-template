@@ -9,7 +9,7 @@ cryptos:
     BTC: {"buy": true, "sell": true}
 openings:
     Every day: {"time": "11 AM - 12 AM"}
-google_maps_url: https://www.google.com/maps/place/Indika+Saigon+(House+of+Curiosity)/@10.7933581,106.691377,18.92z/data=!4m15!1m8!3m7!1s0x317528caf9312557:0xb0c0c38244b4f5e0!2sIndika+Saigon+(House+of+Curiosity)!8m2!3d10.7917782!4d106.6972869!10e5!16s%2Fg%2F11b_01r6nm!3m5!1s0x317528caf9312557:0xb0c0c38244b4f5e0!8m2!3d10.7917782!4d106.6972869!16s%2Fg%2F11b_01r6nm
+google_maps_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.019645022137!2d106.68855357145752!3d10.791778077578753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528caf9312557%3A0xb0c0c38244b4f5e0!2sIndika%20Saigon%20(House%20of%20Curiosity)!5e0!3m2!1sen!2s!4v1678859952421!5m2!1sen!2s
 ---
 
 * Address (District 1): 43 D. Nguyen Van Giai, Da Kao, D1, HCMC
