@@ -15,19 +15,28 @@ google_maps_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0978
 * Address: 77 Xuân Thủy, Thảo Điền, Thủ Đức, Thành phố Hồ Chí Minh 700000
 * Phone: 0981383035
 * Style: Argentinian Steakhouse
+* Website: [El Gaucho](https://vn.elgaucho.asia)
 
 Steakhouse Bitcoin - 
 
-Bitcoin and Steak. What more could you ask for? 
+Bitcoin and Steak. What more could you ask for?
+
+![](/images/el_gaucho/Steak_copy.jpg)
 
 BitcoinVN and El Gaucho have partnered up to bring you a unique and convenient way to buy and sell non-KYC bitcoin with Vietnamese dong. 
+
+![](/images/el_gaucho/photo_2023-03-15 09.03.32.jpeg)
 
 El Gaucho has a THE reputation for steak. Operating internationally in Thailand, the Philippines, Slovakia, Czech Republic, Latvia and 21 locations here in Vietnam. 
 
 Relish what El Gaucho has to offer- signature design elements, extensive menus, stellar service and of course Premium Steak cuts.
 
+![](/images/el_gaucho/IMG_8618.png)
+
 Our Thao Dien location is in the midst of coffee shops, modern co-working spaces, attractive architecture buildings and fashion boutiques to explore. This safe, pedestrian-friendly neighbourhood has a community feel that is a perfect and private place to conduct your bitcoin transactions. 
 
 We are thrilled to partner with an El Gaucho Argentinian steakhouse to offer you an exceptional experience while conducting your bitcoin transactions. 
+
+![](/images/el_gaucho/IMG_8806.png)
 
 Eat real food. Get real money. 
