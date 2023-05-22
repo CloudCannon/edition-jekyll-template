@@ -8,7 +8,7 @@ google_analytics_key:
 show_full_navigation: true
 
 social:
-  email: btm@bitcoinvn.io
+  email: support+btm@bitcoinvn.io
   facebook: https://www.facebook.com/BitcoinATMHCMC
   telegram: https://t.me/BitcoinATMVietnamUpdates
 
@@ -17,7 +17,7 @@ logo: /images/bitcoinvn.svg
 description: Information and documentation regarding BTM network of BitcoinVN
 author:
   name: BitcoinVN
-  email: info@bitcoinvn.io
+  email: support+btm@bitcoinvn.io
   twitter: Bitcoin_Vietnam
 
 # -----
