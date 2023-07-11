@@ -1,6 +1,6 @@
 ---
 category: Locations, Saigon
-title: Capone's Chicago Pizza, D2 **TEMPORARILY UNAVAILABLE** 
+title: Capone's Chicago Pizza, D2 
 layout: btm
 interface_lang:
     - en
