@@ -50,7 +50,7 @@ Step 5 - Select what you want to do
 Step 6&7 - Select whether you already have a wallet
 =============
 + We recommend customers use an existing wallet, rather than create a new one
-+ If you experience any difficulties at this stage, please consult [this guide](https://btm.bitcoinvn.io/faq/what-wallets-to-use)
++ If you experience any difficulties at this stage, please consult [this guide](https://bitcoinvn.io/news/how-to-keep-your-crypto-safe/?utm_source=btm&utm_medium=article_link&utm_campaign=faq)
 
 ![](/images/buy_guide/Step6.png)
 ![](/images/buy_guide/Step7.png)
