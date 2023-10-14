@@ -14,7 +14,7 @@ social:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /images/bitcoinvn.svg
-description: Information and documentation regarding BTM network of BitcoinVN
+description: Information regarding BTM network of BitcoinVN
 author:
   name: BitcoinVN
   email: support+btm@bitcoinvn.io
