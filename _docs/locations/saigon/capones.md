@@ -10,7 +10,7 @@ cryptos:
 openings:
     Every day: {"time": "11 AM - 11 PM"}
 
-google_maps_url: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.94510686130008!2d106.72832473619142!3d10.801989261775125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175261c702b633d%3A0xf72349ed39cdbe8b!2zOC8zIMSQxrDhu51uZyA0OUIsIFRo4bqjbyDEkGnhu4FuLCBRdeG6rW4gMiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1698911022553!5m2!1sen!2s
+google_maps_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.94510686130008!2d106.72832473619142!3d10.801989261775125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175261c702b633d%3A0xf72349ed39cdbe8b!2zOC8zIMSQxrDhu51uZyA0OUIsIFRo4bqjbyDEkGnhu4FuLCBRdeG6rW4gMiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1698911022553!5m2!1sen!2s
 ---
 
 * Address: 8/3 Đường số 49B, Thảo Điền, Quận 2, Ho Chi Minh City
