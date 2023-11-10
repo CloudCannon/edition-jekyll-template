@@ -2,7 +2,7 @@
 # Site
 
 title: BitcoinVN BTM
-url: https://btm.bitcoinvn.io
+url: https://bitcoinvn.io/btm
 baseurl:
 google_analytics_key:
 show_full_navigation: true
@@ -13,7 +13,7 @@ social:
   telegram: https://t.me/BitcoinATMVietnamUpdates
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /images/bitcoinvn.svg
+logo: /btm/images/bitcoinvn.svg
 description: Information regarding BTM network of BitcoinVN
 author:
   name: BitcoinVN
