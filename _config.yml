@@ -3,7 +3,7 @@
 
 title: BitcoinVN BTM
 url: https://bitcoinvn.io/btm
-baseurl:
+baseurl: https://bitcoinvn.io/btm
 google_analytics_key:
 show_full_navigation: true
 
