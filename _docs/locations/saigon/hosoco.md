@@ -38,4 +38,4 @@ Since then, he fell in love with the country and has carved out his expertise- f
 
 ![](/images/hosoco/hosoco_3.png)
 
-We are thrilled to have partnered with a thoughtful and innovating organization to host our new Bitcoin ATM location in District 7. 
+We are delighted to have partnered with a thoughtful and innovating organization to host our new Bitcoin ATM location in District 7. 
