@@ -19,12 +19,12 @@ google_maps_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.94510
 
 Capone’s Chicago Deep Dish Pizza has been filling a gap in Saigon’s ever expanding scene of food offerings:
 
-![](/images/capones/deep_fried.jpg)
+![]({{ site.baseurl }}/images/capones/deep_fried.jpg)
 
 If you got cravings for a typical Chicago-area Deep Dish Pizza - Capone’s got you covered. The Pizza pies are huge - and if that is still not enough for you, Capone’s got the “Double Decker” version on the menu to really fill you up!
 
-![](/images/capones/double_decker.jpg)
+![]({{ site.baseurl }}/images/capones/double_decker.jpg)
 
 One of the highlights of the location is the stunning riverside view with a look right onto South-East Asia’s tallest building, the Landmark 81 at Vinhomes Central Park.
 
-![](/images/capones/capones.jpg)
+![]({{ site.baseurl }}/images/capones/capones.jpg)

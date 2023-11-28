@@ -19,12 +19,12 @@ google_maps_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4252
 
 Led by the [young Vietnamese entrepreneurs Kevin and Ariel](https://news.bitcoinvn.io/interview-with-ariel-nguyen-of-italianis) Italiani’s has been a meeting point for the local Bitcoin community since 2016. As such, their original location also wrote a little Vietnamese Bitcoin history, hosting the very first Bitcoin ATM in Vietnam back in 2016.
 
-![](/images/italianis/front.jpg)
+![]({{ site.baseurl }}/images/italianis/front.jpg)
 
 Their venue in Han Thuyen is located romantically right next to 30/04 park between the Independence palace and Notre Dame church.
 
-![](/images/italianis/pizza.jpg)
+![]({{ site.baseurl }}/images/italianis/pizza.jpg)
 
 So if outside the usual Bitcoin meetups you are looking for the right venue for a date night - food & ambience certainly will not disappoint!
 
-![](/images/italianis/bitcoin_pizza_day.jpg)
+![]({{ site.baseurl }}/images/italianis/bitcoin_pizza_day.jpg)
