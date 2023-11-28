@@ -1,6 +1,6 @@
 ---
 category: Locations, Saigon
-title: El Gaucho, Thao Dien
+title: *Temporarily Closed* El Gaucho, Thao Dien
 layout: btm
 interface_lang:
     - vi
@@ -11,6 +11,9 @@ openings:
     Every day: {"time": "11 AM - 11 PM"}
 google_maps_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0978100336943!2d106.73445489999999!3d10.8038204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175271750703d3b%3A0x2849e7219a031616!2sEl%20Gaucho%20%7C%20Xuan%20Thuy!5e0!3m2!1sen!2suk!4v1678538567823!5m2!1sen!2suk
 ---
+Our Bitcoin ATM at El Gaucho is currently unavailable due to remodeling. We will reinstall the BTM after renovation is completed. 
+
+Please follow us on [Facebook](https://www.facebook.com/BitcoinATMHCMC) for instant updates. 
 
 * Address: 77 Xuân Thủy, Thảo Điền, Thủ Đức, Thành phố Hồ Chí Minh 700000
 * Phone: 0981383035
