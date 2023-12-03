@@ -28,7 +28,7 @@ Bitcoin and Steak. What more could you ask for?
 
 BitcoinVN and El Gaucho have partnered up to bring you a unique and convenient way to buy and sell non-KYC bitcoin with Vietnamese dong. 
 
-![](/images/el_gaucho/photo_2023-03-15 09.03.32.jpeg)
+![]({{ site.baseurl }}/images/el_gaucho/photo_2023-03-15 09.03.32.jpeg)
 
 El Gaucho has a THE reputation for steak. Operating internationally in Thailand, the Philippines, Slovakia, Czech Republic, Latvia and 21 locations here in Vietnam. 
 
